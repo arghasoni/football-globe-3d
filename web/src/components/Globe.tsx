@@ -110,6 +110,10 @@ export default function GlobeView(props: Props) {
     }
     controls.addEventListener('start', onStart)
     controls.addEventListener('end', onEnd)
+    // three.js's controls swallow right-clicks (for right-drag panning, which the globe doesn't use).
+    // Stop the event on the way down so the browser's menu (Inspect, Save image…) works again.
+    const allowContextMenu = (e: MouseEvent) => e.stopPropagation()
+    el.addEventListener('contextmenu', allowContextMenu, true)
 
     const resize = () => globe.width(window.innerWidth).height(window.innerHeight)
     resize()
@@ -146,6 +150,7 @@ export default function GlobeView(props: Props) {
       window.removeEventListener('resize', resize)
       controls.removeEventListener('start', onStart)
       controls.removeEventListener('end', onEnd)
+      el.removeEventListener('contextmenu', allowContextMenu, true)
       globe._destructor()
       el.innerHTML = ''
       globeRef.current = null
