@@ -1,5 +1,6 @@
 import type { MatchEvent, MatchStatus } from '../../../shared/types'
 import { buildTimeline } from '../lib/timeline'
+import Ball from './Ball'
 
 const GOAL_TAG: Partial<Record<MatchEvent['type'], string>> = { 'penalty-goal': ' (pen)', 'own-goal': ' (OG)' }
 
@@ -11,7 +12,7 @@ function EventBody({ e, score }: { e: MatchEvent; score?: string }) {
     case 'own-goal':
       return (
         <div className="tl-body">
-          <span className="tl-icon tl-icon--goal" aria-label="Goal" />
+          <Ball size={14} label={e.type === 'own-goal' ? 'Own goal' : 'Goal'} />
           <div className="tl-text">
             <strong>
               {main}
