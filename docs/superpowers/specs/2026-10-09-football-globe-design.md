@@ -1,6 +1,6 @@
 # Football Globe — Design Spec
 
-Date: 2026-10-09 · Status: Parts 1–3 approved; 4a built, awaiting review
+Date: 2026-10-09 · Status: Parts 1–3 and 4a approved; 4b built, awaiting review
 
 ## Goal
 A personal/portfolio website: a rotatable 3D globe (mouse + touch) where countries hosting
@@ -83,4 +83,15 @@ User asks (2026-10-10): every competition shows live + upcoming (next 48h) + res
 - Header: competition + round, status (pulsing live minute / Half-time / Full-time / countdown), crests, score,
   HT score, goal scorers (pen/OG) and red cards per side, tie note, team-colour glow; facts: kick-off, venue, referee, attendance.
 - Desktop: right-hand panel; phone: full-screen sheet. Globe cards hidden while a match is open.
+
+## Part 4b detail (as built)
+- Match centre tabs: Summary (timeline + facts) and Stats (shown only when the provider has stats).
+- Timeline: newest first, ESPN's own order kept (it is chronological; minutes are not — half-time subs are logged at 45').
+  Period dividers (Kick-off, Half-time, Full-time / End of 90 minutes) carry the score; each goal shows the running score
+  (read from ESPN's "Goal! A 1, B 0." text, else counted). Goals with assists, pens, OGs, cards, second yellows, subs, VAR.
+  Desktop: home left / away right of a centre line; phone: one column with a kit-coloured edge per team.
+- ESPN facts verified: an own goal is tagged with the team that benefits; a second yellow arrives as `red-card` with
+  "Second yellow" only in the text (parser now maps it to `second-yellow`).
+- Stats: 13 headline stats in a fixed order; pass accuracy computed from counts (ESPN's % is rounded to 0.1);
+  split bars in kit colours, near-black kits shown light grey, clashing kits separated; leader in bold.
 
