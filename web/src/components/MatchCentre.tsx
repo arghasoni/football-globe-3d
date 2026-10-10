@@ -5,15 +5,19 @@ import { headerMarks, kickoffCountdown, kickoffLong, statusText, type HeaderMark
 import { kickoffTime } from '../lib/format'
 import { closeMatch } from '../lib/route'
 import { hasLineups } from '../lib/lineup'
+import { tablesFor } from '../lib/table'
+import { useStandings } from '../lib/useStandings'
 import { barColors, statRows } from '../lib/stats'
 import { useMatchDetail } from '../lib/useMatchDetail'
 import Ball from './Ball'
+import FormGuide from './FormGuide'
+import LeagueTable from './LeagueTable'
 import Lineups from './Lineups'
 import { Crest } from './MatchList'
 import StatBars from './StatBars'
 import Timeline from './Timeline'
 
-type Tab = 'summary' | 'stats' | 'lineups'
+type Tab = 'summary' | 'stats' | 'lineups' | 'table'
 
 const isInPlay = (d: MatchDetail) => d.status === 'live' || d.status === 'halftime'
 
@@ -132,9 +136,12 @@ export default function MatchCentre({ competitionId, matchId }: Props) {
   const [tab, setTab] = useState<Tab>('summary')
   const stats = d ? statRows(d.stats) : []
   const kit = barColors(d?.home.color, d?.away.color)
+  const standings = useStandings(competitionId, !!d && isInPlay(d))
+  const tables = d && standings ? tablesFor(standings, d.home.id, d.away.id) : null
   const tabs: { id: Tab; label: string }[] = [{ id: 'summary', label: 'Summary' }]
   if (stats.length) tabs.push({ id: 'stats', label: 'Stats' })
   if (d && hasLineups(d)) tabs.push({ id: 'lineups', label: 'Lineups' })
+  if (tables?.groups.length) tabs.push({ id: 'table', label: 'Table' })
   const activeTab = tabs.some((t) => t.id === tab) ? tab : 'summary'
 
   useEffect(() => {
@@ -199,15 +206,36 @@ export default function MatchCentre({ competitionId, matchId }: Props) {
               ))}
             </div>
           )}
-          {activeTab === 'summary' && (
-            <>
-              <Timeline events={d.events} status={d.status} />
-              <Facts d={d} />
-            </>
-          )}
+          {activeTab === 'summary' &&
+            (d.status === 'scheduled' ? (
+              // Before kick-off, form is the story.
+              <>
+                <FormGuide form={d.form} teams={d} />
+                <Facts d={d} />
+                <Timeline events={d.events} status={d.status} />
+              </>
+            ) : (
+              <>
+                <Timeline events={d.events} status={d.status} />
+                <FormGuide form={d.form} teams={d} />
+                <Facts d={d} />
+              </>
+            ))}
           {activeTab === 'stats' && <StatBars rows={stats} home={d.home} away={d.away} colors={kit} />}
           {activeTab === 'lineups' && <Lineups d={d} colors={kit} />}
-          <p className="panel__note">The league table and form arrive in the next stage.</p>
+          {activeTab === 'table' && tables && (
+            <LeagueTable
+              groups={tables.groups}
+              titled={tables.titled}
+              highlight={
+                new Map<string, 'home' | 'away'>([
+                  [d.home.id, 'home'],
+                  [d.away.id, 'away'],
+                ])
+              }
+            />
+          )}
+          <p className="panel__note">Data from ESPN · times in your time zone</p>
         </>
       )}
     </aside>

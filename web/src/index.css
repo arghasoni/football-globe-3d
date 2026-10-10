@@ -409,6 +409,47 @@ a.match-row:focus-visible { outline: 2px solid var(--neon); outline-offset: 1px;
 .bench__on { flex: none; font-size: 11px; color: #8dffbd; font-variant-numeric: tabular-nums; }
 .bench__on::before { content: '↑'; margin-right: 1px; }
 
+/* Match centre: form guide and table */
+.form-guide { margin-top: 16px; }
+.form-guide__team { display: flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+.form-guide__name {
+  flex: 0 0 120px; display: flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 600; min-width: 0;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.form-guide__games { list-style: none; margin: 0; padding: 0; display: flex; gap: 5px; flex: 1; justify-content: flex-end; }
+.form-game {
+  display: flex; flex-direction: column; align-items: center; gap: 3px; width: 48px; padding: 5px 0 4px;
+  border-radius: 8px; background: rgba(255, 255, 255, 0.035); cursor: default;
+}
+.form-game__result {
+  width: 20px; height: 20px; border-radius: 6px; display: grid; place-items: center;
+  font-family: 'Oxanium', sans-serif; font-size: 11px; font-weight: 800;
+}
+.form-game--W .form-game__result { background: var(--neon); color: #03140c; }
+.form-game--D .form-game__result { background: #7d8a84; color: #0b1410; }
+.form-game--L .form-game__result { background: #ff4d6a; color: #fff; }
+.form-game .crest { width: 16px; height: 16px; }
+.form-game__score { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.tables { margin-top: 6px; }
+.table-group + .table-group { margin-top: 14px; }
+.table { width: 100%; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+.table th {
+  font-size: 11px; font-weight: 600; color: var(--muted); text-align: center; padding: 6px 4px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.table td { text-align: center; padding: 6px 4px; border-bottom: 1px solid rgba(255, 255, 255, 0.04); color: #c9dad1; }
+.table .table__team { text-align: left; width: 100%; max-width: 0; }
+.table__team > span { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.table__name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.table__rank { width: 26px; color: var(--muted); }
+.table td.table__pts { font-weight: 700; color: var(--ink); }
+.table tr.is-home td, .table tr.is-away td { color: var(--ink); font-weight: 600; }
+.table tr.is-home td { background: color-mix(in srgb, var(--home) 14%, transparent); }
+.table tr.is-away td { background: color-mix(in srgb, var(--away) 14%, transparent); }
+.table tr.is-home td:first-child { box-shadow: inset 3px 0 0 var(--home); }
+.table tr.is-away td:first-child { box-shadow: inset 3px 0 0 var(--away); }
+
 @media (max-width: 640px) {
   /* One column on phones: minute on the left, the team shown by a kit-coloured edge. */
   .timeline::before { left: 22px; }
@@ -426,6 +467,11 @@ a.match-row:focus-visible { outline: 2px solid var(--neon); outline-offset: 1px;
   .pl__shirt { width: 26px; height: 26px; font-size: 12px; }
   .pl__name { font-size: 10px; }
   .bench { grid-template-columns: 1fr; }
+  .table__wdl { display: none; }
+  .form-guide__team { flex-direction: column; align-items: stretch; gap: 6px; }
+  .form-guide__name { flex: none; }
+  .form-guide__games { justify-content: space-between; }
+  .form-game { flex: 1; width: auto; }
   .sb-score { font-size: 42px; }
   .crest--lg { width: 52px; height: 52px; }
 }
