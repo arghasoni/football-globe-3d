@@ -1,0 +1,2563 @@
+{
+ "leagues": [
+  {
+   "id": "21231",
+   "uid": "s:600~l:21231",
+   "name": "Saudi Pro League",
+   "abbreviation": "Saudi Pro League",
+   "midsizeName": "KSA.1",
+   "slug": "ksa.1",
+   "season": {
+    "year": 2026,
+    "startDate": "2026-07-01T04:00Z",
+    "endDate": "2027-07-01T03:59Z",
+    "displayName": "2026-27 Saudi Pro League",
+    "type": {
+     "id": "1",
+     "type": 14436,
+     "name": "2026-27 Saudi Pro League",
+     "abbreviation": "2026-27 Saudi Pro League"
+    }
+   },
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/2488.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "default"
+     ],
+     "lastUpdated": "2023-12-15T18:12Z"
+    },
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/2488.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "dark"
+     ],
+     "lastUpdated": "2023-12-15T18:12Z"
+    }
+   ],
+   "calendarType": "day",
+   "calendarIsWhitelist": true,
+   "calendarStartDate": "2026-07-01T04:00Z",
+   "calendarEndDate": "2027-07-01T03:59Z",
+   "calendar": [
+    "2026-08-13T07:00Z",
+    "2026-08-14T07:00Z",
+    "2026-08-15T07:00Z",
+    "2026-08-20T07:00Z",
+    "2026-08-21T07:00Z",
+    "2026-08-22T07:00Z",
+    "2026-08-24T07:00Z",
+    "2026-08-25T07:00Z",
+    "2026-08-26T07:00Z",
+    "2026-08-28T07:00Z",
+    "2026-08-29T07:00Z",
+    "2026-08-30T07:00Z",
+    "2026-09-01T07:00Z",
+    "2026-09-03T07:00Z",
+    "2026-09-04T07:00Z",
+    "2026-09-05T07:00Z",
+    "2026-09-07T07:00Z",
+    "2026-09-08T07:00Z",
+    "2026-09-09T07:00Z",
+    "2026-09-11T07:00Z",
+    "2026-09-12T07:00Z",
+    "2026-09-13T07:00Z",
+    "2026-10-09T07:00Z",
+    "2026-10-10T07:00Z",
+    "2026-10-11T07:00Z",
+    "2026-10-15T07:00Z",
+    "2026-10-16T07:00Z",
+    "2026-10-17T07:00Z",
+    "2026-10-18T07:00Z",
+    "2026-10-19T07:00Z",
+    "2026-10-20T07:00Z",
+    "2026-10-22T07:00Z",
+    "2026-10-23T07:00Z",
+    "2026-10-24T07:00Z",
+    "2026-10-29T07:00Z",
+    "2026-10-30T07:00Z",
+    "2026-10-31T07:00Z",
+    "2026-11-05T08:00Z",
+    "2026-11-20T08:00Z",
+    "2026-11-26T08:00Z",
+    "2026-12-03T08:00Z",
+    "2026-12-10T08:00Z",
+    "2026-12-14T08:00Z",
+    "2027-02-11T08:00Z",
+    "2027-02-18T08:00Z",
+    "2027-02-25T08:00Z",
+    "2027-03-11T08:00Z",
+    "2027-03-18T07:00Z",
+    "2027-04-02T07:00Z",
+    "2027-04-08T07:00Z",
+    "2027-04-15T07:00Z",
+    "2027-04-18T07:00Z",
+    "2027-04-22T07:00Z",
+    "2027-04-29T07:00Z",
+    "2027-05-06T07:00Z",
+    "2027-05-12T07:00Z",
+    "2027-05-20T07:00Z",
+    "2027-05-24T07:00Z",
+    "2027-05-28T07:00Z"
+   ]
+  }
+ ],
+ "season": {
+  "type": 14436,
+  "year": 2026
+ },
+ "day": {
+  "date": "2026-10-09"
+ },
+ "events": [
+  {
+   "id": "401900908",
+   "uid": "s:600~l:21231~e:401900908",
+   "date": "2026-10-09T13:50Z",
+   "name": "Al Qadsiah at Al Kholood",
+   "shortName": "QAD @ KHO",
+   "season": {
+    "year": 2026,
+    "type": 14436,
+    "slug": "2026-27-saudi-pro-league"
+   },
+   "competitions": [
+    {
+     "id": "401900908",
+     "uid": "s:600~l:21231~e:401900908~c:401900908",
+     "date": "2026-10-09T13:50Z",
+     "startDate": "2026-10-09T13:50Z",
+     "attendance": 0,
+     "timeValid": true,
+     "recent": true,
+     "status": {
+      "clock": 5400,
+      "displayClock": "90'+4'",
+      "period": 2,
+      "type": {
+       "id": "28",
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "venue": {
+      "id": "9630",
+      "fullName": "Al-Hazm Club Stadium",
+      "address": {
+       "city": "Al-Rass",
+       "country": "Saudi Arabia"
+      }
+     },
+     "format": {
+      "regulation": {
+       "periods": 2
+      }
+     },
+     "altGameNote": "Saudi Pro League",
+     "notes": [],
+     "geoBroadcasts": [],
+     "broadcasts": [],
+     "broadcast": "",
+     "competitors": [
+      {
+       "id": "22028",
+       "uid": "s:600~t:22028",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "winner": false,
+       "form": "DLWDW",
+       "score": "0",
+       "records": [
+        {
+         "name": "All Splits",
+         "type": "total",
+         "summary": "3-3-2",
+         "abbreviation": "Total"
+        }
+       ],
+       "team": {
+        "id": "22028",
+        "uid": "s:600~t:22028",
+        "abbreviation": "KHO",
+        "displayName": "Al Kholood",
+        "shortDisplayName": "Al Kholood",
+        "name": "Al Kholood",
+        "location": "Al Kholood",
+        "color": "008000",
+        "alternateColor": "C60000",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22028.png",
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/club/_/id/22028/al-kholood",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/stats/_/id/22028/al-kholood",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:22028&section=stats",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/fixtures/_/id/22028/al-kholood",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:22028&section=scores",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/squad/_/id/22028/al-kholood",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:22028&section=squad",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         }
+        ]
+       },
+       "statistics": [
+        {
+         "name": "appearances",
+         "abbreviation": "APP",
+         "displayValue": "0"
+        },
+        {
+         "name": "foulsCommitted",
+         "abbreviation": "FC",
+         "displayValue": "9"
+        },
+        {
+         "name": "wonCorners",
+         "abbreviation": "CW",
+         "displayValue": "10"
+        },
+        {
+         "name": "goalAssists",
+         "abbreviation": "A",
+         "displayValue": "0"
+        },
+        {
+         "name": "possessionPct",
+         "abbreviation": "PP",
+         "displayValue": "38.9"
+        },
+        {
+         "name": "shotAssists",
+         "abbreviation": "SHAST",
+         "displayValue": "0"
+        },
+        {
+         "name": "shotsOnTarget",
+         "abbreviation": "SOG",
+         "displayValue": "4"
+        },
+        {
+         "name": "totalGoals",
+         "abbreviation": "G",
+         "displayValue": "0"
+        },
+        {
+         "name": "totalShots",
+         "abbreviation": "SHOT",
+         "displayValue": "14"
+        }
+       ]
+      },
+      {
+       "id": "22022",
+       "uid": "s:600~t:22022",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "winner": true,
+       "form": "DWDWW",
+       "score": "5",
+       "records": [
+        {
+         "name": "All Splits",
+         "type": "total",
+         "summary": "6-1-1",
+         "abbreviation": "Total"
+        }
+       ],
+       "team": {
+        "id": "22022",
+        "uid": "s:600~t:22022",
+        "abbreviation": "QAD",
+        "displayName": "Al Qadsiah",
+        "shortDisplayName": "Al Qadsiah",
+        "name": "Al Qadsiah",
+        "location": "Al Qadsiah",
+        "color": "ffd700",
+        "alternateColor": "C60000",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/22022.png",
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/club/_/id/22022/al-qadsiah",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/stats/_/id/22022/al-qadsiah",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:22022&section=stats",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/fixtures/_/id/22022/al-qadsiah",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:22022&section=scores",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/squad/_/id/22022/al-qadsiah",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:22022&section=squad",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         }
+        ]
+       },
+       "statistics": [
+        {
+         "name": "appearances",
+         "abbreviation": "APP",
+         "displayValue": "0"
+        },
+        {
+         "name": "foulsCommitted",
+         "abbreviation": "FC",
+         "displayValue": "9"
+        },
+        {
+         "name": "wonCorners",
+         "abbreviation": "CW",
+         "displayValue": "6"
+        },
+        {
+         "name": "goalAssists",
+         "abbreviation": "A",
+         "displayValue": "4"
+        },
+        {
+         "name": "possessionPct",
+         "abbreviation": "PP",
+         "displayValue": "61.1"
+        },
+        {
+         "name": "shotAssists",
+         "abbreviation": "SHAST",
+         "displayValue": "0"
+        },
+        {
+         "name": "shotsOnTarget",
+         "abbreviation": "SOG",
+         "displayValue": "9"
+        },
+        {
+         "name": "totalGoals",
+         "abbreviation": "G",
+         "displayValue": "5"
+        },
+        {
+         "name": "totalShots",
+         "abbreviation": "SHOT",
+         "displayValue": "20"
+        }
+       ]
+      }
+     ],
+     "details": [
+      {
+       "type": {
+        "id": "70",
+        "text": "Goal"
+       },
+       "clock": {
+        "value": 208,
+        "displayValue": "4'"
+       },
+       "team": {
+        "id": "22022"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "261328",
+         "displayName": "Tijjani Reijnders",
+         "shortName": "T. Reijnders",
+         "fullName": "Tijjani Reijnders",
+         "jersey": "14",
+         "team": {
+          "id": "22022"
+         },
+         "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/261328.png",
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/261328/tijjani-reijnders",
+           "isHidden": false
+          }
+         ],
+         "position": "CM-R"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "70",
+        "text": "Goal"
+       },
+       "clock": {
+        "value": 746,
+        "displayValue": "13'"
+       },
+       "team": {
+        "id": "22022"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "360279",
+         "displayName": "Christopher Bonsu Baah",
+         "shortName": "C. Baah",
+         "fullName": "Christopher Bonsu Baah",
+         "jersey": "22",
+         "team": {
+          "id": "22022"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/360279/christopher-bonsu-baah",
+           "isHidden": false
+          }
+         ],
+         "position": "LM"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "70",
+        "text": "Goal"
+       },
+       "clock": {
+        "value": 2343,
+        "displayValue": "40'"
+       },
+       "team": {
+        "id": "22022"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "315523",
+         "displayName": "Musab Al-Juwayr",
+         "shortName": "M. Al-Juwayr",
+         "fullName": "Musab Al-Juwayr",
+         "jersey": "10",
+         "team": {
+          "id": "22022"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/315523/musab-al-juwayr",
+           "isHidden": false
+          }
+         ],
+         "position": "CM-L"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "70",
+        "text": "Goal"
+       },
+       "clock": {
+        "value": 3967,
+        "displayValue": "67'"
+       },
+       "team": {
+        "id": "22022"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "268703",
+         "displayName": "Mateo Retegui",
+         "shortName": "M. Retegui",
+         "fullName": "Mateo Retegui",
+         "jersey": "32",
+         "team": {
+          "id": "22022"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/268703/mateo-retegui",
+           "isHidden": false
+          }
+         ],
+         "position": "CF-R"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "94",
+        "text": "Yellow Card"
+       },
+       "clock": {
+        "value": 4989,
+        "displayValue": "84'"
+       },
+       "team": {
+        "id": "22028"
+       },
+       "scoreValue": 0,
+       "scoringPlay": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "390696",
+         "displayName": "Coba da Costa",
+         "shortName": "C. da Costa",
+         "fullName": "Coba da Costa",
+         "jersey": "11",
+         "team": {
+          "id": "22028"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/390696/coba-da-costa",
+           "isHidden": false
+          }
+         ],
+         "position": "AM-L"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "98",
+        "text": "Penalty - Scored"
+       },
+       "clock": {
+        "value": 5129,
+        "displayValue": "86'"
+       },
+       "team": {
+        "id": "22022"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": true,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "233075",
+         "displayName": "Julián Quiñones",
+         "shortName": "J. Quiñones",
+         "fullName": "Julián Quiñones",
+         "jersey": "33",
+         "team": {
+          "id": "22022"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/233075/julian-quinones",
+           "isHidden": false
+          }
+         ],
+         "position": "CF-L"
+        }
+       ]
+      }
+     ],
+     "odds": [
+      null
+     ],
+     "wasSuspended": false,
+     "playByPlayAvailable": true,
+     "playByPlayAthletes": true
+    }
+   ],
+   "status": {
+    "clock": 5400,
+    "displayClock": "90'+4'",
+    "period": 2,
+    "type": {
+     "id": "28",
+     "name": "STATUS_FULL_TIME",
+     "state": "post",
+     "completed": true,
+     "description": "Full Time",
+     "detail": "FT",
+     "shortDetail": "FT"
+    }
+   },
+   "venue": {
+    "displayName": "Al-Hazm Club Stadium"
+   },
+   "links": [
+    {
+     "language": "en-US",
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401900908/al-qadsiah-al-kholood",
+     "text": "Summary",
+     "shortText": "Summary",
+     "isExternal": false,
+     "isPremium": false,
+     "isHidden": false
+    }
+   ]
+  },
+  {
+   "id": "401900912",
+   "uid": "s:600~l:21231~e:401900912",
+   "date": "2026-10-09T14:55Z",
+   "name": "Al Ahli at Al Fateh",
+   "shortName": "AHL @ FAT",
+   "season": {
+    "year": 2026,
+    "type": 14436,
+    "slug": "2026-27-saudi-pro-league"
+   },
+   "competitions": [
+    {
+     "id": "401900912",
+     "uid": "s:600~l:21231~e:401900912~c:401900912",
+     "date": "2026-10-09T14:55Z",
+     "startDate": "2026-10-09T14:55Z",
+     "attendance": 0,
+     "timeValid": true,
+     "recent": true,
+     "status": {
+      "clock": 5400,
+      "displayClock": "90'+4'",
+      "period": 2,
+      "type": {
+       "id": "28",
+       "name": "STATUS_FULL_TIME",
+       "state": "post",
+       "completed": true,
+       "description": "Full Time",
+       "detail": "FT",
+       "shortDetail": "FT"
+      }
+     },
+     "venue": {
+      "id": "10673",
+      "fullName": "Al Fateh Club Stadium",
+      "address": {
+       "city": "Al-Hofuf",
+       "country": "Saudi Arabia"
+      }
+     },
+     "format": {
+      "regulation": {
+       "periods": 2
+      }
+     },
+     "altGameNote": "Saudi Pro League",
+     "notes": [],
+     "geoBroadcasts": [],
+     "broadcasts": [],
+     "broadcast": "",
+     "competitors": [
+      {
+       "id": "13033",
+       "uid": "s:600~t:13033",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "winner": false,
+       "form": "DLLDD",
+       "score": "0",
+       "records": [
+        {
+         "name": "All Splits",
+         "type": "total",
+         "summary": "0-3-5",
+         "abbreviation": "Total"
+        }
+       ],
+       "team": {
+        "id": "13033",
+        "uid": "s:600~t:13033",
+        "abbreviation": "FAT",
+        "displayName": "Al Fateh",
+        "shortDisplayName": "Al Fateh",
+        "name": "Al Fateh",
+        "location": "Al Fateh",
+        "color": "26ba09",
+        "alternateColor": "0999ba",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/13033.png",
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/club/_/id/13033/al-fateh",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/stats/_/id/13033/al-fateh",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:13033&section=stats",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/fixtures/_/id/13033/al-fateh",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:13033&section=scores",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/squad/_/id/13033/al-fateh",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:13033&section=squad",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         }
+        ],
+        "venue": {
+         "id": "10673"
+        }
+       },
+       "statistics": [
+        {
+         "name": "appearances",
+         "abbreviation": "APP",
+         "displayValue": "0"
+        },
+        {
+         "name": "foulsCommitted",
+         "abbreviation": "FC",
+         "displayValue": "20"
+        },
+        {
+         "name": "wonCorners",
+         "abbreviation": "CW",
+         "displayValue": "3"
+        },
+        {
+         "name": "goalAssists",
+         "abbreviation": "A",
+         "displayValue": "0"
+        },
+        {
+         "name": "possessionPct",
+         "abbreviation": "PP",
+         "displayValue": "38.1"
+        },
+        {
+         "name": "shotAssists",
+         "abbreviation": "SHAST",
+         "displayValue": "0"
+        },
+        {
+         "name": "shotsOnTarget",
+         "abbreviation": "SOG",
+         "displayValue": "1"
+        },
+        {
+         "name": "totalGoals",
+         "abbreviation": "G",
+         "displayValue": "0"
+        },
+        {
+         "name": "totalShots",
+         "abbreviation": "SHOT",
+         "displayValue": "5"
+        }
+       ]
+      },
+      {
+       "id": "8346",
+       "uid": "s:600~t:8346",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "winner": true,
+       "form": "DLDWL",
+       "score": "4",
+       "records": [
+        {
+         "name": "All Splits",
+         "type": "total",
+         "summary": "5-0-3",
+         "abbreviation": "Total"
+        }
+       ],
+       "team": {
+        "id": "8346",
+        "uid": "s:600~t:8346",
+        "abbreviation": "AHL",
+        "displayName": "Al Ahli",
+        "shortDisplayName": "Al Ahli",
+        "name": "Al Ahli",
+        "location": "Al Ahli",
+        "color": "078543",
+        "alternateColor": "193b67",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/8346.png",
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/club/_/id/8346/al-ahli",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/stats/_/id/8346/al-ahli",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:8346&section=stats",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/fixtures/_/id/8346/al-ahli",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:8346&section=scores",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/squad/_/id/8346/al-ahli",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:8346&section=squad",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         }
+        ]
+       },
+       "statistics": [
+        {
+         "name": "appearances",
+         "abbreviation": "APP",
+         "displayValue": "0"
+        },
+        {
+         "name": "foulsCommitted",
+         "abbreviation": "FC",
+         "displayValue": "17"
+        },
+        {
+         "name": "wonCorners",
+         "abbreviation": "CW",
+         "displayValue": "4"
+        },
+        {
+         "name": "goalAssists",
+         "abbreviation": "A",
+         "displayValue": "1"
+        },
+        {
+         "name": "possessionPct",
+         "abbreviation": "PP",
+         "displayValue": "61.9"
+        },
+        {
+         "name": "shotAssists",
+         "abbreviation": "SHAST",
+         "displayValue": "0"
+        },
+        {
+         "name": "shotsOnTarget",
+         "abbreviation": "SOG",
+         "displayValue": "10"
+        },
+        {
+         "name": "totalGoals",
+         "abbreviation": "G",
+         "displayValue": "4"
+        },
+        {
+         "name": "totalShots",
+         "abbreviation": "SHOT",
+         "displayValue": "17"
+        }
+       ]
+      }
+     ],
+     "details": [
+      {
+       "type": {
+        "id": "70",
+        "text": "Goal"
+       },
+       "clock": {
+        "value": 1802,
+        "displayValue": "31'"
+       },
+       "team": {
+        "id": "8346"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "274159",
+         "displayName": "Francisco Trincão",
+         "shortName": "F. Trincão",
+         "fullName": "Francisco Trincão",
+         "jersey": "7",
+         "team": {
+          "id": "8346"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/274159/francisco-trincao",
+           "isHidden": false
+          }
+         ],
+         "position": "AM-R"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "70",
+        "text": "Goal"
+       },
+       "clock": {
+        "value": 2975,
+        "displayValue": "50'"
+       },
+       "team": {
+        "id": "8346"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "274159",
+         "displayName": "Francisco Trincão",
+         "shortName": "F. Trincão",
+         "fullName": "Francisco Trincão",
+         "jersey": "7",
+         "team": {
+          "id": "8346"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/274159/francisco-trincao",
+           "isHidden": false
+          }
+         ],
+         "position": "AM-R"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "94",
+        "text": "Yellow Card"
+       },
+       "clock": {
+        "value": 3252,
+        "displayValue": "55'"
+       },
+       "team": {
+        "id": "13033"
+       },
+       "scoreValue": 0,
+       "scoringPlay": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "274928",
+         "displayName": "Kennedy Boateng",
+         "shortName": "K. Boateng",
+         "fullName": "Kennedy Boateng",
+         "jersey": "3",
+         "team": {
+          "id": "13033"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/274928/kennedy-boateng",
+           "isHidden": false
+          }
+         ],
+         "position": "CD-L"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "70",
+        "text": "Goal"
+       },
+       "clock": {
+        "value": 3577,
+        "displayValue": "60'"
+       },
+       "team": {
+        "id": "8346"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "180639",
+         "displayName": "Ivan Toney",
+         "shortName": "I. Toney",
+         "fullName": "Ivan Toney",
+         "jersey": "17",
+         "team": {
+          "id": "8346"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/180639/ivan-toney",
+           "isHidden": false
+          }
+         ],
+         "position": "F"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "94",
+        "text": "Yellow Card"
+       },
+       "clock": {
+        "value": 3733,
+        "displayValue": "63'"
+       },
+       "team": {
+        "id": "13033"
+       },
+       "scoreValue": 0,
+       "scoringPlay": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "230430",
+         "displayName": "Marwane Saadane",
+         "shortName": "M. Saadane",
+         "fullName": "Marwane Saadane",
+         "jersey": "17",
+         "team": {
+          "id": "13033"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/230430/marwane-saadane",
+           "isHidden": false
+          }
+         ],
+         "position": "CD"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "94",
+        "text": "Yellow Card"
+       },
+       "clock": {
+        "value": 4503,
+        "displayValue": "76'"
+       },
+       "team": {
+        "id": "8346"
+       },
+       "scoreValue": 0,
+       "scoringPlay": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "359165",
+         "displayName": "Valentin Atangana",
+         "shortName": "V. Atangana",
+         "fullName": "Valentin Atangana",
+         "jersey": "6",
+         "team": {
+          "id": "8346"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/359165/valentin-atangana",
+           "isHidden": false
+          }
+         ],
+         "position": "RM"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "94",
+        "text": "Yellow Card"
+       },
+       "clock": {
+        "value": 4546,
+        "displayValue": "76'"
+       },
+       "team": {
+        "id": "13033"
+       },
+       "scoreValue": 0,
+       "scoringPlay": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "362969",
+         "displayName": "Faisal Al Abdulwahed",
+         "shortName": "F. Al Abdulwahed",
+         "fullName": "Faisal Al Abdulwahed",
+         "jersey": "80",
+         "team": {
+          "id": "13033"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/362969/faisal-al-abdulwahed",
+           "isHidden": false
+          }
+         ],
+         "position": "SUB"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "70",
+        "text": "Goal"
+       },
+       "clock": {
+        "value": 5292,
+        "displayValue": "89'"
+       },
+       "team": {
+        "id": "8346"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "306692",
+         "displayName": "Ziyad Al-Johani",
+         "shortName": "Z. Al-Johani",
+         "fullName": "Ziyad Al-Johani",
+         "jersey": "30",
+         "team": {
+          "id": "8346"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/306692/ziyad-al-johani",
+           "isHidden": false
+          }
+         ],
+         "position": "LM"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "94",
+        "text": "Yellow Card"
+       },
+       "clock": {
+        "value": 5400,
+        "displayValue": "90'+2'"
+       },
+       "team": {
+        "id": "13033"
+       },
+       "scoreValue": 0,
+       "scoringPlay": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "232639",
+         "displayName": "Mourad Batna",
+         "shortName": "M. Batna",
+         "fullName": "Mourad Batna",
+         "jersey": "11",
+         "team": {
+          "id": "13033"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/232639/mourad-batna",
+           "isHidden": false
+          }
+         ],
+         "position": "RM"
+        }
+       ]
+      }
+     ],
+     "odds": [
+      null
+     ],
+     "wasSuspended": false,
+     "playByPlayAvailable": true,
+     "playByPlayAthletes": true
+    }
+   ],
+   "status": {
+    "clock": 5400,
+    "displayClock": "90'+4'",
+    "period": 2,
+    "type": {
+     "id": "28",
+     "name": "STATUS_FULL_TIME",
+     "state": "post",
+     "completed": true,
+     "description": "Full Time",
+     "detail": "FT",
+     "shortDetail": "FT"
+    }
+   },
+   "venue": {
+    "displayName": "Al Fateh Club Stadium"
+   },
+   "links": [
+    {
+     "language": "en-US",
+     "rel": [
+      "summary",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401900912/al-ahli-al-fateh",
+     "text": "Summary",
+     "shortText": "Summary",
+     "isExternal": false,
+     "isPremium": false,
+     "isHidden": false
+    }
+   ]
+  },
+  {
+   "id": "401900907",
+   "uid": "s:600~l:21231~e:401900907",
+   "date": "2026-10-09T18:00Z",
+   "name": "Al Diriyah at Al Nassr",
+   "shortName": "DIR @ NSR",
+   "season": {
+    "year": 2026,
+    "type": 14436,
+    "slug": "2026-27-saudi-pro-league"
+   },
+   "competitions": [
+    {
+     "id": "401900907",
+     "uid": "s:600~l:21231~e:401900907~c:401900907",
+     "date": "2026-10-09T18:00Z",
+     "startDate": "2026-10-09T18:00Z",
+     "attendance": 0,
+     "timeValid": true,
+     "recent": true,
+     "status": {
+      "clock": 2700,
+      "displayClock": "45'+4'",
+      "period": 1,
+      "type": {
+       "id": "23",
+       "name": "STATUS_HALFTIME",
+       "state": "in",
+       "completed": false,
+       "description": "Halftime",
+       "detail": "HT",
+       "shortDetail": "HT"
+      }
+     },
+     "venue": {
+      "id": "10675",
+      "fullName": "Al-Awwal Park",
+      "address": {
+       "city": "King Fahd International Stadium",
+       "country": "Saudi Arabia"
+      }
+     },
+     "format": {
+      "regulation": {
+       "periods": 2
+      }
+     },
+     "altGameNote": "Saudi Pro League",
+     "notes": [],
+     "geoBroadcasts": [],
+     "broadcasts": [],
+     "broadcast": "",
+     "competitors": [
+      {
+       "id": "817",
+       "uid": "s:600~t:817",
+       "type": "team",
+       "order": 0,
+       "homeAway": "home",
+       "winner": false,
+       "form": "LDWLW",
+       "score": "2",
+       "records": [
+        {
+         "name": "All Splits",
+         "type": "total",
+         "summary": "5-1-1",
+         "abbreviation": "Total"
+        }
+       ],
+       "team": {
+        "id": "817",
+        "uid": "s:600~t:817",
+        "abbreviation": "NSR",
+        "displayName": "Al Nassr",
+        "shortDisplayName": "Al Nassr",
+        "name": "Al Nassr",
+        "location": "Al Nassr",
+        "color": "f7f316",
+        "alternateColor": "1c31ce",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/817.png",
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/club/_/id/817/al-nassr",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/stats/_/id/817/al-nassr",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:817&section=stats",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/fixtures/_/id/817/al-nassr",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:817&section=scores",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/squad/_/id/817/al-nassr",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:817&section=squad",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         }
+        ],
+        "venue": {
+         "id": "10675"
+        }
+       },
+       "statistics": [
+        {
+         "name": "appearances",
+         "abbreviation": "APP",
+         "displayValue": "0"
+        },
+        {
+         "name": "foulsCommitted",
+         "abbreviation": "FC",
+         "displayValue": "0"
+        },
+        {
+         "name": "wonCorners",
+         "abbreviation": "CW",
+         "displayValue": "0"
+        },
+        {
+         "name": "goalAssists",
+         "abbreviation": "A",
+         "displayValue": "0"
+        },
+        {
+         "name": "possessionPct",
+         "abbreviation": "PP",
+         "displayValue": "0"
+        },
+        {
+         "name": "shotAssists",
+         "abbreviation": "SHAST",
+         "displayValue": "0"
+        },
+        {
+         "name": "shotsOnTarget",
+         "abbreviation": "SOG",
+         "displayValue": "0"
+        },
+        {
+         "name": "totalGoals",
+         "abbreviation": "G",
+         "displayValue": "2"
+        },
+        {
+         "name": "totalShots",
+         "abbreviation": "SHOT",
+         "displayValue": "0"
+        }
+       ]
+      },
+      {
+       "id": "131746",
+       "uid": "s:600~t:131746",
+       "type": "team",
+       "order": 1,
+       "homeAway": "away",
+       "winner": false,
+       "form": "DWLWD",
+       "score": "0",
+       "records": [
+        {
+         "name": "All Splits",
+         "type": "total",
+         "summary": "3-2-2",
+         "abbreviation": "Total"
+        }
+       ],
+       "team": {
+        "id": "131746",
+        "uid": "s:600~t:131746",
+        "abbreviation": "DIR",
+        "displayName": "Al Diriyah",
+        "shortDisplayName": "Al Diriyah",
+        "name": "Al Diriyah",
+        "location": "Al Diriyah",
+        "color": "000000",
+        "alternateColor": "000000",
+        "isActive": true,
+        "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/131746.png",
+        "links": [
+         {
+          "rel": [
+           "clubhouse",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/club/_/id/131746/al-diriyah",
+          "text": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/stats/_/id/131746/al-diriyah",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "stats",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:131746&section=stats",
+          "text": "Stats",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/fixtures/_/id/131746/al-diriyah",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "schedule",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:131746&section=scores",
+          "text": "Fixtures",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "desktop",
+           "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/squad/_/id/131746/al-diriyah",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         },
+         {
+          "rel": [
+           "squad",
+           "sportscenter",
+           "app",
+           "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:131746&section=squad",
+          "text": "Squad",
+          "isExternal": false,
+          "isPremium": false,
+          "isHidden": false
+         }
+        ],
+        "venue": {
+         "id": "10675"
+        }
+       },
+       "statistics": [
+        {
+         "name": "appearances",
+         "abbreviation": "APP",
+         "displayValue": "0"
+        },
+        {
+         "name": "foulsCommitted",
+         "abbreviation": "FC",
+         "displayValue": "0"
+        },
+        {
+         "name": "wonCorners",
+         "abbreviation": "CW",
+         "displayValue": "0"
+        },
+        {
+         "name": "goalAssists",
+         "abbreviation": "A",
+         "displayValue": "0"
+        },
+        {
+         "name": "possessionPct",
+         "abbreviation": "PP",
+         "displayValue": "0"
+        },
+        {
+         "name": "shotAssists",
+         "abbreviation": "SHAST",
+         "displayValue": "0"
+        },
+        {
+         "name": "shotsOnTarget",
+         "abbreviation": "SOG",
+         "displayValue": "0"
+        },
+        {
+         "name": "totalGoals",
+         "abbreviation": "G",
+         "displayValue": "0"
+        },
+        {
+         "name": "totalShots",
+         "abbreviation": "SHOT",
+         "displayValue": "0"
+        }
+       ]
+      }
+     ],
+     "details": [
+      {
+       "type": {
+        "id": "70",
+        "text": "Goal"
+       },
+       "clock": {
+        "value": 1372,
+        "displayValue": "23'"
+       },
+       "team": {
+        "id": "817"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "22774",
+         "displayName": "Cristiano Ronaldo",
+         "shortName": "C. Ronaldo",
+         "fullName": "Cristiano Ronaldo",
+         "jersey": "7",
+         "team": {
+          "id": "817"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/22774/cristiano-ronaldo",
+           "isHidden": false
+          }
+         ],
+         "position": "CF-L"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "94",
+        "text": "Yellow Card"
+       },
+       "clock": {
+        "value": 1640,
+        "displayValue": "28'"
+       },
+       "team": {
+        "id": "131746"
+       },
+       "scoreValue": 0,
+       "scoringPlay": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "174322",
+         "displayName": "Chancel Mbemba",
+         "shortName": "C. Mbemba",
+         "fullName": "Chancel Mbemba",
+         "jersey": "99",
+         "team": {
+          "id": "131746"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/174322/chancel-mbemba",
+           "isHidden": false
+          }
+         ],
+         "position": "CD-L"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "70",
+        "text": "Goal"
+       },
+       "clock": {
+        "value": 2077,
+        "displayValue": "35'"
+       },
+       "team": {
+        "id": "817"
+       },
+       "scoreValue": 1,
+       "scoringPlay": true,
+       "redCard": false,
+       "yellowCard": false,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "183466",
+         "displayName": "Samú Costa",
+         "shortName": "S. Costa",
+         "fullName": "Samú Costa",
+         "jersey": "11",
+         "team": {
+          "id": "817"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/183466/samu-costa",
+           "isHidden": false
+          }
+         ],
+         "position": "CM-L"
+        }
+       ]
+      },
+      {
+       "type": {
+        "id": "94",
+        "text": "Yellow Card"
+       },
+       "clock": {
+        "value": 2700,
+        "displayValue": "45'+2'"
+       },
+       "team": {
+        "id": "131746"
+       },
+       "scoreValue": 0,
+       "scoringPlay": false,
+       "redCard": false,
+       "yellowCard": true,
+       "penaltyKick": false,
+       "ownGoal": false,
+       "shootout": false,
+       "athletesInvolved": [
+        {
+         "id": "341470",
+         "displayName": "Abdulaziz Al Faraj",
+         "shortName": "A. Al Faraj",
+         "fullName": "Abdulaziz Al Faraj",
+         "jersey": "2",
+         "team": {
+          "id": "131746"
+         },
+         "links": [
+          {
+           "rel": [
+            "playercard",
+            "desktop",
+            "athlete"
+           ],
+           "href": "https://www.espn.com/soccer/player/_/id/341470/abdulaziz-al-faraj",
+           "isHidden": false
+          }
+         ],
+         "position": "RB"
+        }
+       ]
+      }
+     ],
+     "odds": [
+      {
+       "overUnder": 3.5,
+       "link": {
+        "language": "en-US",
+        "rel": [
+         "game",
+         "desktop",
+         "bets"
+        ],
+        "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34772266",
+        "text": "Game",
+        "shortText": "Game",
+        "isExternal": true,
+        "isPremium": false,
+        "isHidden": false
+       },
+       "provider": {
+        "id": "100",
+        "name": "DraftKings",
+        "priority": 1,
+        "displayName": "DraftKings",
+        "logos": [
+         {
+          "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+          "rel": [
+           "light"
+          ]
+         },
+         {
+          "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+          "rel": [
+           "dark"
+          ]
+         }
+        ]
+       },
+       "drawOdds": {
+        "moneyLine": 400,
+        "link": {
+         "language": "en-US",
+         "rel": [
+          "draw",
+          "desktop",
+          "bets",
+          "draftkings"
+         ],
+         "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34772266%3Foutcomes%3D0ML86587677_2",
+         "text": "Draw Bet",
+         "shortText": "Draw Bet",
+         "isExternal": true,
+         "isPremium": false,
+         "isHidden": false
+        }
+       },
+       "total": {
+        "displayName": "Total",
+        "shortDisplayName": "Total",
+        "over": {
+         "open": {
+          "line": "o3.5",
+          "odds": "+105"
+         },
+         "close": {
+          "line": "o3.5",
+          "odds": "+120"
+         },
+         "current": {
+          "line": "o3.5",
+          "odds": "-192",
+          "link": {
+           "rel": [
+            "over",
+            "bets"
+           ],
+           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34772266%3Foutcomes%3D0OU86587960O350_1",
+           "tracking": {
+            "campaign": "betting-integrations",
+            "tags": {
+             "league": "ksa.1",
+             "sport": "soccer",
+             "gameId": 401900907,
+             "betSide": "over",
+             "betType": "straight",
+             "betDetails": "Over:3.5"
+            }
+           }
+          }
+         }
+        },
+        "under": {
+         "open": {
+          "line": "u3.5",
+          "odds": "-155"
+         },
+         "close": {
+          "line": "u3.5",
+          "odds": "-160"
+         },
+         "current": {
+          "line": "u3.5",
+          "odds": "+132",
+          "link": {
+           "rel": [
+            "under",
+            "bets"
+           ],
+           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34772266%3Foutcomes%3D0OU86587960U350_3",
+           "tracking": {
+            "campaign": "betting-integrations",
+            "tags": {
+             "league": "ksa.1",
+             "sport": "soccer",
+             "gameId": 401900907,
+             "betSide": "under",
+             "betType": "straight",
+             "betDetails": "Under:3.5"
+            }
+           }
+          }
+         }
+        }
+       },
+       "pointSpread": {
+        "displayName": "Spread",
+        "shortDisplayName": "Spread",
+        "home": {
+         "open": {
+          "line": "-1.5",
+          "odds": "+115"
+         },
+         "close": {
+          "line": "-1.5",
+          "odds": "+115"
+         },
+         "current": {
+          "line": "-2.5",
+          "odds": "-115",
+          "link": {
+           "rel": [
+            "homeSpread",
+            "bets"
+           ],
+           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34772266%3Foutcomes%3D0HC86587961N250_1",
+           "tracking": {
+            "campaign": "betting-integrations",
+            "tags": {
+             "league": "ksa.1",
+             "sport": "soccer",
+             "gameId": 401900907,
+             "betSide": "home",
+             "betType": "straight",
+             "betDetails": "Spread:NSR-2.5"
+            }
+           }
+          }
+         }
+        },
+        "away": {
+         "open": {
+          "line": "+1.5",
+          "odds": "-175"
+         },
+         "close": {
+          "line": "+1.5",
+          "odds": "-160"
+         },
+         "current": {
+          "line": "+2.5",
+          "odds": "-130",
+          "link": {
+           "rel": [
+            "awaySpread",
+            "bets"
+           ],
+           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34772266%3Foutcomes%3D0HC86587961P250_3",
+           "tracking": {
+            "campaign": "betting-integrations",
+            "tags": {
+             "league": "ksa.1",
+             "sport": "soccer",
+             "gameId": 401900907,
+             "betSide": "away",
+             "betType": "straight",
+             "betDetails": "Spread:DIR+2.5"
+            }
+           }
+          }
+         }
+        }
+       },
+       "moneyline": {
+        "displayName": "Moneyline",
+        "shortDisplayName": "ML",
+        "home": {
+         "open": {
+          "odds": "-220"
+         },
+         "close": {
+          "odds": "-225"
+         },
+         "current": {
+          "odds": "-3000",
+          "link": {
+           "rel": [
+            "home",
+            "bets"
+           ],
+           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34772266%3Foutcomes%3D0ML86587955_1",
+           "tracking": {
+            "campaign": "betting-integrations",
+            "tags": {
+             "league": "ksa.1",
+             "sport": "soccer",
+             "gameId": 401900907,
+             "betSide": "home",
+             "betType": "straight"
+            }
+           }
+          }
+         }
+        },
+        "away": {
+         "open": {
+          "odds": "+425"
+         },
+         "close": {
+          "odds": "+500"
+         },
+         "current": {
+          "odds": "+3500",
+          "link": {
+           "rel": [
+            "away",
+            "bets"
+           ],
+           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34772266%3Foutcomes%3D0ML86587955_3",
+           "tracking": {
+            "campaign": "betting-integrations",
+            "tags": {
+             "league": "ksa.1",
+             "sport": "soccer",
+             "gameId": 401900907,
+             "betSide": "away",
+             "betType": "straight"
+            }
+           }
+          }
+         }
+        },
+        "draw": {
+         "open": {
+          "odds": "+400"
+         },
+         "close": {
+          "odds": "+400"
+         },
+         "current": {
+          "odds": "+1300",
+          "link": {
+           "rel": [
+            "draw",
+            "bets"
+           ],
+           "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34772266%3Foutcomes%3D0ML86587955_2",
+           "tracking": {
+            "campaign": "betting-integrations",
+            "tags": {
+             "league": "ksa.1",
+             "sport": "soccer",
+             "gameId": 401900907,
+             "betSide": "draw",
+             "betType": "straight"
+            }
+           }
+          }
+         }
+        }
+       },
+       "details": "NSR -225"
+      }
+     ],
+     "wasSuspended": false,
+     "playByPlayAvailable": true,
+     "playByPlayAthletes": true
+    }
+   ],
+   "status": {
+    "clock": 2700,
+    "displayClock": "45'+4'",
+    "period": 1,
+    "type": {
+     "id": "23",
+     "name": "STATUS_HALFTIME",
+     "state": "in",
+     "completed": false,
+     "description": "Halftime",
+     "detail": "HT",
+     "shortDetail": "HT"
+    }
+   },
+   "venue": {
+    "displayName": "Al-Awwal Park"
+   },
+   "links": [
+    {
+     "language": "en-US",
+     "rel": [
+      "live",
+      "desktop",
+      "event"
+     ],
+     "href": "https://www.espn.com/soccer/match/_/gameId/401900907",
+     "text": "Gamecast",
+     "shortText": "Live",
+     "isExternal": false,
+     "isPremium": false,
+     "isHidden": false
+    }
+   ]
+  }
+ ],
+ "provider": {
+  "id": "100",
+  "name": "DraftKings",
+  "priority": 1,
+  "displayName": "DraftKings",
+  "logos": [
+   {
+    "href": "https://a.espncdn.com/i/betting/Draftkings_Light.svg",
+    "rel": [
+     "light"
+    ]
+   },
+   {
+    "href": "https://a.espncdn.com/i/betting/Draftkings_Dark.svg",
+    "rel": [
+     "dark"
+    ]
+   }
+  ]
+ }
+}
