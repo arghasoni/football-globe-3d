@@ -62,6 +62,23 @@ describe('parseSummary', () => {
     expect(cup.info).toMatchObject({ round: 'Round of 16', note: '2nd Leg - Liverpool win 3-2 on aggregate' })
   })
 
+  it("lists each team's last five results, oldest first, scored from that team's side", () => {
+    const g = parseSummary(loadFixture('espn/summary-ger.1-401884781.json'), 'ger.1', '401884781')
+    expect(g.form.home.map((f) => f.result).join('')).toBe('WWWWW')
+    expect(g.form.away.map((f) => f.result).join('')).toBe('WLWDW')
+    expect(g.form.away[1]).toEqual({
+      result: 'L',
+      date: '2026-08-30T13:30:00.000Z',
+      opponent: 'SC Freiburg',
+      opponentLogo: expect.stringMatching(/^https:/),
+      home: false,
+      goalsFor: 1,
+      goalsAgainst: 4,
+      competition: 'Bundesliga',
+    })
+    expect(g.form.home[0]).toMatchObject({ opponent: 'HEBC Hamburg', goalsFor: 5, goalsAgainst: 0, home: false })
+  })
+
   it('tells a second yellow apart from a straight red, and keeps goal assists', () => {
     const nl = parseSummary(loadFixture('espn/summary-uefa.nations-401861135.json'), 'uefa.nations', '401861135')
     expect(nl.events.find((e) => e.minute === "65'")).toMatchObject({ type: 'second-yellow', side: 'away' })

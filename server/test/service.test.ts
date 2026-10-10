@@ -102,7 +102,7 @@ describe('service.match', () => {
     )
     const res = await service.match('eng.1', '401879276')
     expect(res.stale).toBe(true)
-    expect(res.data).toMatchObject({ id: '401879276', status: 'finished', info: {}, events: [], stats: [], lineups: {} })
+    expect(res.data).toMatchObject({ id: '401879276', status: 'finished', info: {}, form: { home: [], away: [] }, events: [], stats: [], lineups: {} })
     expect(res.data.away).toMatchObject({ name: 'Liverpool', score: 1 })
   })
 

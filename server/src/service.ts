@@ -257,7 +257,7 @@ export function createService(deps: ServiceDeps) {
       const m = list?.data.find((x) => x.id === matchId)
       if (!list || !m) throw err
       return {
-        data: { ...m, info: {}, events: [], stats: [], lineups: {} },
+        data: { ...m, info: {}, form: { home: [], away: [] }, events: [], stats: [], lineups: {} },
         stale: true,
         updatedAt: list.updatedAt,
         source: list.source,

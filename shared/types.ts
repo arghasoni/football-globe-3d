@@ -94,8 +94,24 @@ export interface MatchInfo {
   halftime?: { home: number; away: number }
 }
 
+/** One of a team's recent results, from that team's point of view. */
+export interface FormGame {
+  result: 'W' | 'D' | 'L'
+  /** ISO 8601 UTC. */
+  date: string
+  opponent: string
+  opponentLogo?: string
+  /** Played at home. */
+  home: boolean
+  goalsFor: number
+  goalsAgainst: number
+  competition?: string
+}
+
 export interface MatchDetail extends MatchSummary {
   info: MatchInfo
+  /** Each team's last five results before this match, oldest first. */
+  form: Record<Side, FormGame[]>
   events: MatchEvent[]
   stats: StatLine[]
   lineups: { home?: Lineup; away?: Lineup }

@@ -1,4 +1,5 @@
 import type {
+  FormGame,
   MatchDetail,
   MatchEvent,
   MatchEventType,
@@ -103,6 +104,19 @@ interface EspnSummary {
     officials?: { displayName?: string; position?: { name?: string } }[]
   }
   keyEvents?: EspnKeyEvent[]
+  lastFiveGames?: {
+    team: { id: string }
+    events?: {
+      gameDate: string
+      gameResult?: string
+      homeTeamId: string
+      homeTeamScore: string
+      awayTeamScore: string
+      leagueAbbreviation?: string
+      opponent?: { displayName?: string }
+      opponentLogo?: string
+    }[]
+  }[]
   rosters?: { homeAway: Side; formation?: string; roster?: EspnRosterPlayer[] }[]
   boxscore?: {
     teams?: {
@@ -242,6 +256,29 @@ function toInfo(s: EspnSummary): MatchInfo {
   return info
 }
 
+function toForm(s: EspnSummary, teamId: string): FormGame[] {
+  const games = s.lastFiveGames?.find((t) => t.team.id === teamId)?.events ?? []
+  return games
+    .filter((e) => e.gameResult === 'W' || e.gameResult === 'D' || e.gameResult === 'L')
+    .map((e) => {
+      const home = e.homeTeamId === teamId
+      const [h, a] = [Number(e.homeTeamScore), Number(e.awayTeamScore)]
+      const game: FormGame = {
+        result: e.gameResult as FormGame['result'],
+        date: new Date(e.gameDate).toISOString(),
+        opponent: e.opponent?.displayName ?? '',
+        home,
+        // ESPN's own `score` is written winner-first, so use the per-side goals.
+        goalsFor: home ? h : a,
+        goalsAgainst: home ? a : h,
+      }
+      if (e.opponentLogo) game.opponentLogo = e.opponentLogo
+      if (e.leagueAbbreviation) game.competition = e.leagueAbbreviation
+      return game
+    })
+    .sort((x, y) => x.date.localeCompare(y.date))
+}
+
 export function parseSummary(json: unknown, competitionId: string, eventId: string): MatchDetail {
   const s = json as EspnSummary
   const comp = s.header.competitions[0]
@@ -290,7 +327,8 @@ export function parseSummary(json: unknown, competitionId: string, eventId: stri
     away: awayStats.find((a) => a.name === h.name)?.displayValue ?? '',
   }))
 
-  return { ...base, info, events, stats, lineups }
+  const form = { home: toForm(s, base.home.id), away: toForm(s, base.away.id) }
+  return { ...base, info, form, events, stats, lineups }
 }
 
 function collectTables(node: EspnStandingsNode, out: StandingsGroup[]) {
