@@ -1,6 +1,6 @@
 # Football Globe — Design Spec
 
-Date: 2026-10-09 · Status: Parts 1–3 and 4a approved; 4b built, awaiting review
+Date: 2026-10-09 · Status: Parts 1–3, 4a and 4b approved; 4c built, awaiting review
 
 ## Goal
 A personal/portfolio website: a rotatable 3D globe (mouse + touch) where countries hosting
@@ -94,4 +94,15 @@ User asks (2026-10-10): every competition shows live + upcoming (next 48h) + res
   "Second yellow" only in the text (parser now maps it to `second-yellow`).
 - Stats: 13 headline stats in a fixed order; pass accuracy computed from counts (ESPN's % is rounded to 0.1);
   split bars in kit colours, near-black kits shown light grey, clashing kits separated; leader in bold.
+
+## Part 4c detail (as built)
+- Goal icon is now an SVG football (`Ball`), used in the score header, timeline and lineups (user feedback: the white dot
+  looked like a golf ball).
+- Lineups tab (shown when either XI is known): one pitch, home attacking up from the bottom, away down from the top
+  (mirrored so each side's left is on its own left). Shirt numbers in kit colours with readable ink; badges for goals,
+  cards (second yellow = red) and substitution minute; surnames with particles ("van Dijk").
+- Placement: ESPN's formationPlace numbering is formation-specific and its position labels are loose (a 4-2-3-1's holding
+  pair is labelled LM/RM), so starters are ranked by how advanced their label is, cut into the formation's lines, and
+  ordered left→right from the -L/-R in the label. Falls back to one line per position depth if the formation is missing.
+- Substitutes per team: players who came on first (in order, with minute and cards), then the unused bench.
 
