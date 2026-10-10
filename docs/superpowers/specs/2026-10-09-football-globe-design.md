@@ -1,6 +1,6 @@
 # Football Globe — Design Spec
 
-Date: 2026-10-09 · Status: Parts 1–3, 4a and 4b approved; 4c built, awaiting review
+Date: 2026-10-09 · Status: Parts 1–3 and 4a–4c approved; 4d built (Part 4 complete), awaiting review
 
 ## Goal
 A personal/portfolio website: a rotatable 3D globe (mouse + touch) where countries hosting
@@ -105,4 +105,15 @@ User asks (2026-10-10): every competition shows live + upcoming (next 48h) + res
   pair is labelled LM/RM), so starters are ranked by how advanced their label is, cut into the formation's lines, and
   ordered left→right from the -L/-R in the label. Falls back to one line per position depth if the formation is missing.
 - Substitutes per team: players who came on first (in order, with minute and cards), then the unused bench.
+
+## Part 4d detail (as built)
+- Recent form: `MatchDetail.form` from ESPN's `lastFiveGames`, oldest first, scored from each team's side (ESPN's own
+  `score` string is winner-first). Shown in Summary as W/D/L chips with opponent crest and score (tooltip: venue,
+  competition, date); before kick-off the Summary leads with form, then facts.
+- Table tab: the competition's standings endpoint (crests, GF/GA), narrowed to the group(s) containing either team —
+  full league table, the match's Nations League / qualifying group, or both MLS conferences. Group names shown when the
+  competition has several groups; both teams highlighted in their kit colours. Hidden when neither team is in a table
+  (friendlies). Refreshed each minute while the match is live. Phone hides W/D/L columns.
+- Footer: "Data from ESPN · times in your time zone". Right-click menu restored over the globe (three.js OrbitControls
+  cancels `contextmenu`).
 
