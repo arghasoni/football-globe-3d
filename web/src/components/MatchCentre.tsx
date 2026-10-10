@@ -4,13 +4,16 @@ import type { MatchDetail, MatchSide, Side } from '../../../shared/types'
 import { headerMarks, kickoffCountdown, kickoffLong, statusText, type HeaderMark } from '../lib/matchHeader'
 import { kickoffTime } from '../lib/format'
 import { closeMatch } from '../lib/route'
+import { hasLineups } from '../lib/lineup'
 import { barColors, statRows } from '../lib/stats'
 import { useMatchDetail } from '../lib/useMatchDetail'
+import Ball from './Ball'
+import Lineups from './Lineups'
 import { Crest } from './MatchList'
 import StatBars from './StatBars'
 import Timeline from './Timeline'
 
-type Tab = 'summary' | 'stats'
+type Tab = 'summary' | 'stats' | 'lineups'
 
 const isInPlay = (d: MatchDetail) => d.status === 'live' || d.status === 'halftime'
 
@@ -38,7 +41,7 @@ function Marks({ marks, side }: { marks: HeaderMark[]; side: Side }) {
     <ul className={`sb-marks sb-marks--${side}`}>
       {marks.map((m, i) => (
         <li key={i}>
-          <span className={`sb-mark-icon sb-mark-icon--${m.kind}`} aria-label={m.kind === 'goal' ? 'Goal' : 'Red card'} />
+          {m.kind === 'goal' ? <Ball size={11} /> : <span className="sb-mark-icon sb-mark-icon--red" aria-label="Red card" />}
           <span className="sb-marks__player">{m.player}</span>
           <span className="sb-marks__minute">
             {m.minute}
@@ -131,6 +134,7 @@ export default function MatchCentre({ competitionId, matchId }: Props) {
   const kit = barColors(d?.home.color, d?.away.color)
   const tabs: { id: Tab; label: string }[] = [{ id: 'summary', label: 'Summary' }]
   if (stats.length) tabs.push({ id: 'stats', label: 'Stats' })
+  if (d && hasLineups(d)) tabs.push({ id: 'lineups', label: 'Lineups' })
   const activeTab = tabs.some((t) => t.id === tab) ? tab : 'summary'
 
   useEffect(() => {
@@ -202,7 +206,8 @@ export default function MatchCentre({ competitionId, matchId }: Props) {
             </>
           )}
           {activeTab === 'stats' && <StatBars rows={stats} home={d.home} away={d.away} colors={kit} />}
-          <p className="panel__note">Lineups and the league table arrive in the next stages.</p>
+          {activeTab === 'lineups' && <Lineups d={d} colors={kit} />}
+          <p className="panel__note">The league table and form arrive in the next stage.</p>
         </>
       )}
     </aside>
