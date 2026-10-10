@@ -8,7 +8,7 @@ export interface HeaderMark {
 }
 
 /** Minute strings like "45'+2'" in match order. */
-function minuteValue(minute: string): number {
+export function minuteValue(minute: string): number {
   const [base, extra] = minute.split('+').map((p) => parseInt(p, 10) || 0)
   return base + (extra ?? 0) / 100
 }
