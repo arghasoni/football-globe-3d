@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { StatLine } from '../../../shared/types'
-import { barColors, statRows } from './stats'
+import { barColors, inkOn, statRows } from './stats'
 
 const line = (key: string, home: string, away: string): StatLine => ({ key, label: key, home, away })
 
@@ -62,5 +62,14 @@ describe('barColors', () => {
     expect(clash.away).not.toBe('#fff000')
     expect(barColors(undefined, undefined).home).toMatch(/^#/)
     expect(barColors(undefined, undefined).home).not.toBe(barColors(undefined, undefined).away)
+  })
+})
+
+describe('inkOn', () => {
+  it('picks dark text on light kits and white text on dark ones', () => {
+    expect(inkOn('#ffee00')).toBe('#04130c')
+    expect(inkOn('#d9e4de')).toBe('#04130c')
+    expect(inkOn('#c8102e')).toBe('#ffffff')
+    expect(inkOn('#1e3a8a')).toBe('#ffffff')
   })
 })

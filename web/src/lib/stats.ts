@@ -110,3 +110,6 @@ export function barColors(homeHex?: string, awayHex?: string): { home: string; a
   if (distance(home, away) < 90) away = distance(home, LIGHT) < 90 ? NEON : LIGHT
   return { home, away }
 }
+
+/** Readable text colour (shirt numbers) on top of a kit colour. */
+export const inkOn = (hex: string) => (luminance(hex) > 0.35 ? '#04130c' : '#ffffff')
