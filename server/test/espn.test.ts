@@ -62,6 +62,13 @@ describe('parseSummary', () => {
     expect(cup.info).toMatchObject({ round: 'Round of 16', note: '2nd Leg - Liverpool win 3-2 on aggregate' })
   })
 
+  it('tells a second yellow apart from a straight red, and keeps goal assists', () => {
+    const nl = parseSummary(loadFixture('espn/summary-uefa.nations-401861135.json'), 'uefa.nations', '401861135')
+    expect(nl.events.find((e) => e.minute === "65'")).toMatchObject({ type: 'second-yellow', side: 'away' })
+    expect(nl.events.find((e) => e.minute === "85'")).toMatchObject({ type: 'red', players: ['Sergiy Malyi'] })
+    expect(nl.events.find((e) => e.minute === "22'")?.players).toEqual(['Petur Knudsen', 'Joannes Bjartalid'])
+  })
+
   it('builds a timeline of meaningful events only', () => {
     const goal = d.events.find((e) => e.type === 'goal')!
     expect(goal).toMatchObject({ minute: "57'", side: 'away', players: ['Alexander Isak'] })

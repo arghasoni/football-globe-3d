@@ -52,9 +52,10 @@ export interface MatchEvent {
   /** Display minute, e.g. "45'+2'". */
   minute: string
   type: MatchEventType
+  /** The team the event counts for; for own goals that is the team that benefits. */
   side: Side | null
   text: string
-  /** Main player first; for subs: [player on, player off]. */
+  /** Main player first: goals [scorer, assist?]; subs [player on, player off]. */
   players: string[]
 }
 

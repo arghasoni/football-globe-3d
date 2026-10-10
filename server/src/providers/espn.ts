@@ -208,7 +208,8 @@ function toEventType(e: EspnKeyEvent): MatchEventType | null {
   }
   if (t.includes('penalty') && /miss|saved/.test(t + text)) return 'penalty-miss'
   if (t.includes('substitution')) return 'sub'
-  if (/second-yellow|yellow-red/.test(t)) return 'second-yellow'
+  // ESPN types a second booking as a red card; only the text says so.
+  if (/second-yellow|yellow-red/.test(t) || /second yellow/.test(text)) return 'second-yellow'
   if (t.includes('yellow')) return 'yellow'
   if (t.includes('red')) return 'red'
   if (t.includes('var')) return 'var'
