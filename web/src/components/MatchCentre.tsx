@@ -4,8 +4,13 @@ import type { MatchDetail, MatchSide, Side } from '../../../shared/types'
 import { headerMarks, kickoffCountdown, kickoffLong, statusText, type HeaderMark } from '../lib/matchHeader'
 import { kickoffTime } from '../lib/format'
 import { closeMatch } from '../lib/route'
+import { barColors, statRows } from '../lib/stats'
 import { useMatchDetail } from '../lib/useMatchDetail'
 import { Crest } from './MatchList'
+import StatBars from './StatBars'
+import Timeline from './Timeline'
+
+type Tab = 'summary' | 'stats'
 
 const isInPlay = (d: MatchDetail) => d.status === 'live' || d.status === 'halftime'
 
@@ -50,13 +55,8 @@ function Scoreboard({ d, now }: { d: MatchDetail; now: Date }) {
   const live = isInPlay(d)
   const finished = d.status === 'finished' && started
   const marks = headerMarks(d.events)
-  const colors = {
-    '--home': `#${d.home.color ?? '39ff88'}`,
-    '--away': `#${d.away.color ?? '39ff88'}`,
-  } as CSSProperties
-
   return (
-    <section className={`scoreboard scoreboard--${d.status}`} style={colors}>
+    <section className={`scoreboard scoreboard--${d.status}`}>
       <div className={`sb-status${live ? ' sb-status--live' : ''}`}>
         {live && <span className="live-dot" />}
         {statusText(d)}
@@ -126,6 +126,12 @@ export default function MatchCentre({ competitionId, matchId }: Props) {
   const now = useMinuteTick()
   const comp = COMPETITION_BY_ID.get(competitionId)
   const d = envelope?.data
+  const [tab, setTab] = useState<Tab>('summary')
+  const stats = d ? statRows(d.stats) : []
+  const kit = barColors(d?.home.color, d?.away.color)
+  const tabs: { id: Tab; label: string }[] = [{ id: 'summary', label: 'Summary' }]
+  if (stats.length) tabs.push({ id: 'stats', label: 'Stats' })
+  const activeTab = tabs.some((t) => t.id === tab) ? tab : 'summary'
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => e.key === 'Escape' && closeMatch()
@@ -145,7 +151,12 @@ export default function MatchCentre({ competitionId, matchId }: Props) {
   }, [d])
 
   return (
-    <aside className="centre" role="dialog" aria-label={d ? `${d.home.name} v ${d.away.name}` : 'Match centre'}>
+    <aside
+      className="centre"
+      role="dialog"
+      aria-label={d ? `${d.home.name} v ${d.away.name}` : 'Match centre'}
+      style={{ '--home': kit.home, '--away': kit.away } as CSSProperties}
+    >
       <header className="centre__bar">
         <button className="centre__back" onClick={closeMatch} aria-label="Back">
           <span aria-hidden>←</span>
@@ -169,8 +180,29 @@ export default function MatchCentre({ competitionId, matchId }: Props) {
         <>
           {envelope?.stale && <p className="notice notice--warn">Some details may be delayed or missing right now.</p>}
           <Scoreboard d={d} now={now} />
-          <Facts d={d} />
-          <p className="panel__note">Timeline, stats, lineups and the table arrive in the next stages.</p>
+          {tabs.length > 1 && (
+            <div className="tabs centre__tabs" role="tablist">
+              {tabs.map((t) => (
+                <button
+                  key={t.id}
+                  role="tab"
+                  aria-selected={t.id === activeTab}
+                  className={`tab${t.id === activeTab ? ' is-active' : ''}`}
+                  onClick={() => setTab(t.id)}
+                >
+                  {t.label}
+                </button>
+              ))}
+            </div>
+          )}
+          {activeTab === 'summary' && (
+            <>
+              <Timeline events={d.events} status={d.status} />
+              <Facts d={d} />
+            </>
+          )}
+          {activeTab === 'stats' && <StatBars rows={stats} home={d.home} away={d.away} colors={kit} />}
+          <p className="panel__note">Lineups and the league table arrive in the next stages.</p>
         </>
       )}
     </aside>
