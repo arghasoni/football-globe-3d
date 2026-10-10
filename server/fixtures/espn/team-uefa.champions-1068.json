@@ -1,0 +1,1416 @@
+{
+ "team": {
+  "id": "1068",
+  "uid": "s:600~t:1068",
+  "slug": "esp.atletico_madrid",
+  "location": "Atlético Madrid",
+  "name": "Atlético Madrid",
+  "abbreviation": "ATM",
+  "displayName": "Atlético Madrid",
+  "shortDisplayName": "Atlético",
+  "color": "ca3624",
+  "alternateColor": "000000",
+  "isActive": true,
+  "logos": [
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "default"
+    ],
+    "lastUpdated": "2025-09-19T20:43Z"
+   },
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/1068.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "dark"
+    ],
+    "lastUpdated": "2025-09-19T20:42Z"
+   }
+  ],
+  "record": {
+   "items": [
+    {
+     "description": "Overall Record",
+     "type": "total",
+     "summary": "0-0-1",
+     "stats": [
+      {
+       "name": "gamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "losses",
+       "value": 1
+      },
+      {
+       "name": "pointDifferential",
+       "value": -1
+      },
+      {
+       "name": "points",
+       "value": 0
+      },
+      {
+       "name": "pointsAgainst",
+       "value": 2
+      },
+      {
+       "name": "pointsFor",
+       "value": 1
+      },
+      {
+       "name": "streak",
+       "value": 0
+      },
+      {
+       "name": "ties",
+       "value": 0
+      },
+      {
+       "name": "wins",
+       "value": 0
+      },
+      {
+       "name": "advanced",
+       "value": 0
+      },
+      {
+       "name": "awayGamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "awayLosses",
+       "value": 1
+      },
+      {
+       "name": "awayPointsAgainst",
+       "value": 2
+      },
+      {
+       "name": "awayPointsFor",
+       "value": 1
+      },
+      {
+       "name": "awayTies",
+       "value": 0
+      },
+      {
+       "name": "awayWins",
+       "value": 0
+      },
+      {
+       "name": "deductions",
+       "value": 0
+      },
+      {
+       "name": "homeGamesPlayed",
+       "value": 0
+      },
+      {
+       "name": "homeLosses",
+       "value": 0
+      },
+      {
+       "name": "homePointsAgainst",
+       "value": 0
+      },
+      {
+       "name": "homePointsFor",
+       "value": 0
+      },
+      {
+       "name": "homeTies",
+       "value": 0
+      },
+      {
+       "name": "homeWins",
+       "value": 0
+      },
+      {
+       "name": "ppg",
+       "value": 0
+      },
+      {
+       "name": "rank",
+       "value": 25
+      },
+      {
+       "name": "rankChange",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "id": "1"
+  },
+  "links": [
+   {
+    "language": "en-US",
+    "rel": [
+     "clubhouse",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/club/_/id/1068/atletico-madrid",
+    "text": "Clubhouse",
+    "shortText": "Clubhouse",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/stats/_/id/1068/atletico-madrid",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:1068&section=stats",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/fixtures/_/id/1068/atletico-madrid",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:1068&section=scores",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/results/_/id/1068/atletico-madrid",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:1068&section=scores",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:1068&section=standings",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/squad/_/id/1068/atletico-madrid",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:1068&section=squad",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   }
+  ],
+  "defaultLeague": {
+   "id": "740",
+   "alternateId": "15",
+   "name": "Spanish LALIGA",
+   "abbreviation": "LALIGA",
+   "shortName": "LALIGA",
+   "midsizeName": "ESP.1",
+   "slug": "esp.1",
+   "season": {
+    "type": {
+     "hasStandings": true
+    }
+   },
+   "links": [
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/league/_/name/esp.1",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/schedule/_/league/esp.1",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=scores",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/table/_/league/esp.1",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=standings",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/scoreboard/_/league/esp.1",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=scores",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/stats/_/league/esp.1",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=stats",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "teams",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/teams/_/league/esp.1",
+     "text": "Teams",
+     "shortText": "Teams",
+     "isExternal": false,
+     "isPremium": false
+    }
+   ],
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "default"
+     ],
+     "lastUpdated": "2025-07-30T16:01Z"
+    },
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "dark"
+     ],
+     "lastUpdated": "2025-07-30T13:25Z"
+    }
+   ]
+  },
+  "leagueAbbrev": "esp.1",
+  "nextEvent": [
+   {
+    "id": "401915412",
+    "date": "2026-10-13T19:00Z",
+    "name": "Manchester United at Atlético Madrid",
+    "shortName": "MAN @ ATM",
+    "season": {
+     "year": 2026,
+     "displayName": "2026-27 UEFA Champions League"
+    },
+    "seasonType": {
+     "id": "1",
+     "type": 14534,
+     "name": "League Phase",
+     "abbreviation": "League Phase"
+    },
+    "timeValid": true,
+    "competitions": [
+     {
+      "id": "401915412",
+      "date": "2026-10-13T19:00Z",
+      "attendance": 0,
+      "timeValid": true,
+      "neutralSite": false,
+      "boxscoreAvailable": true,
+      "ticketsAvailable": true,
+      "venue": {
+       "fullName": "Riyadh Air Metropolitano",
+       "address": {
+        "city": "Madrid",
+        "country": "Spain"
+       }
+      },
+      "competitors": [
+       {
+        "id": "1068",
+        "type": "team",
+        "order": 0,
+        "homeAway": "home",
+        "winner": false,
+        "team": {
+         "id": "1068",
+         "location": "Atlético Madrid",
+         "abbreviation": "ATM",
+         "displayName": "Atlético Madrid",
+         "shortDisplayName": "Atlético",
+         "logos": [
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "default"
+           ],
+           "lastUpdated": "2025-09-19T20:43Z"
+          },
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/1068.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "dark"
+           ],
+           "lastUpdated": "2025-09-19T20:42Z"
+          }
+         ],
+         "links": [
+          {
+           "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/club/_/id/1068/atletico-madrid",
+           "text": "Clubhouse"
+          },
+          {
+           "rel": [
+            "stats",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/stats/_/id/1068/atletico-madrid",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:1068&section=stats",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "schedule",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/fixtures/_/id/1068/atletico-madrid",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:1068&section=scores",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "results",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/results/_/id/1068/atletico-madrid",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "results",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:1068&section=scores",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "standings",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:1068&section=standings",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "squad",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/squad/_/id/1068/atletico-madrid",
+           "text": "Squad"
+          },
+          {
+           "rel": [
+            "squad",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:1068&section=squad",
+           "text": "Squad"
+          }
+         ]
+        }
+       },
+       {
+        "id": "360",
+        "type": "team",
+        "order": 1,
+        "homeAway": "away",
+        "winner": false,
+        "team": {
+         "id": "360",
+         "location": "Manchester United",
+         "nickname": "Red Devils",
+         "abbreviation": "MAN",
+         "displayName": "Manchester United",
+         "shortDisplayName": "Man United",
+         "logos": [
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "default"
+           ],
+           "lastUpdated": "2019-05-08T16:07Z"
+          },
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/360.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "dark"
+           ],
+           "lastUpdated": "2019-05-08T16:07Z"
+          }
+         ],
+         "links": [
+          {
+           "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/club/_/id/360/manchester-united",
+           "text": "Clubhouse"
+          },
+          {
+           "rel": [
+            "stats",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/stats/_/id/360/manchester-united",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:360&section=stats",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "schedule",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/fixtures/_/id/360/manchester-united",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:360&section=scores",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "results",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/results/_/id/360/manchester-united",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "results",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:360&section=scores",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "standings",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:360&section=standings",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "squad",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/squad/_/id/360/manchester-united",
+           "text": "Squad"
+          },
+          {
+           "rel": [
+            "squad",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:360&section=squad",
+           "text": "Squad"
+          }
+         ]
+        }
+       }
+      ],
+      "notes": [],
+      "odds": [
+       {
+        "provider": {
+         "id": "100",
+         "name": "DraftKings",
+         "priority": 1
+        },
+        "details": "ATM +110",
+        "overUnder": 3.5,
+        "spread": -0.5,
+        "awayTeamOdds": {
+         "favorite": false,
+         "underdog": true,
+         "moneyLine": 215,
+         "spreadOdds": -145,
+         "open": {
+          "favorite": false,
+          "pointSpread": {
+           "alternateDisplayValue": "+0.5",
+           "american": "+0.5"
+          },
+          "spread": {
+           "value": 1.57,
+           "displayValue": "4/7",
+           "alternateDisplayValue": "-175",
+           "decimal": 1.57,
+           "fraction": "4/7",
+           "american": "-175"
+          },
+          "moneyLine": {
+           "value": 2.75,
+           "displayValue": "7/4",
+           "alternateDisplayValue": "+175",
+           "decimal": 2.75,
+           "fraction": "7/4",
+           "american": "+175"
+          }
+         },
+         "current": {
+          "pointSpread": {
+           "alternateDisplayValue": "+0.5",
+           "american": "+0.5"
+          },
+          "spread": {
+           "value": 1.68,
+           "displayValue": "20/29",
+           "alternateDisplayValue": "-145",
+           "decimal": 1.68,
+           "fraction": "20/29",
+           "american": "-145"
+          },
+          "moneyLine": {
+           "value": 3.15,
+           "displayValue": "43/20",
+           "alternateDisplayValue": "+215",
+           "decimal": 3.15,
+           "fraction": "43/20",
+           "american": "+215"
+          }
+         },
+         "team": {
+          "id": "360",
+          "name": "Manchester United",
+          "abbreviation": "MAN",
+          "displayName": "Manchester United",
+          "shortDisplayName": "Man United"
+         }
+        },
+        "homeTeamOdds": {
+         "favorite": true,
+         "underdog": false,
+         "moneyLine": 110,
+         "spreadOdds": 100,
+         "open": {
+          "favorite": true,
+          "pointSpread": {
+           "alternateDisplayValue": "-0.5",
+           "american": "-0.5"
+          },
+          "spread": {
+           "value": 2.15,
+           "displayValue": "23/20",
+           "alternateDisplayValue": "+115",
+           "decimal": 2.15,
+           "fraction": "23/20",
+           "american": "+115"
+          },
+          "moneyLine": {
+           "value": 2.3,
+           "displayValue": "13/10",
+           "alternateDisplayValue": "+130",
+           "decimal": 2.3,
+           "fraction": "13/10",
+           "american": "+130"
+          }
+         },
+         "current": {
+          "pointSpread": {
+           "alternateDisplayValue": "-0.5",
+           "american": "-0.5"
+          },
+          "spread": {
+           "value": 2,
+           "displayValue": "1/1",
+           "alternateDisplayValue": "+100",
+           "decimal": 2,
+           "fraction": "1/1",
+           "american": "+100"
+          },
+          "moneyLine": {
+           "value": 2.1,
+           "displayValue": "11/10",
+           "alternateDisplayValue": "+110",
+           "decimal": 2.1,
+           "fraction": "11/10",
+           "american": "+110"
+          }
+         },
+         "team": {
+          "id": "1068",
+          "name": "Atlético Madrid",
+          "abbreviation": "ATM",
+          "displayName": "Atlético Madrid",
+          "shortDisplayName": "Atlético"
+         }
+        },
+        "drawOdds": {
+         "moneyLine": 280
+        },
+        "links": [
+         {
+          "language": "en-US",
+          "rel": [
+           "home",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654783%3Foutcomes%3D0ML86264667_1",
+          "text": "Home Bet",
+          "shortText": "Home Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "away",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654783%3Foutcomes%3D0ML86264667_3",
+          "text": "Away Bet",
+          "shortText": "Away Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "draw",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654783%3Foutcomes%3D0ML86264667_2",
+          "text": "Draw Bet",
+          "shortText": "Draw Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "homeSpread",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654783%3Foutcomes%3D0HC86264890N50_1",
+          "text": "Home Point Spread",
+          "shortText": "Home Point Spread",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "awaySpread",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654783%3Foutcomes%3D0HC86264890P50_3",
+          "text": "Away Point Spread",
+          "shortText": "Away Point Spread",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "over",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654783%3Foutcomes%3D0OU86264859O350_1",
+          "text": "Over Odds",
+          "shortText": "Over Odds",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "under",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654783%3Foutcomes%3D0OU86264859U350_3",
+          "text": "Under Odds",
+          "shortText": "Under Odds",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "game",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654783",
+          "text": "Game",
+          "shortText": "Game",
+          "isExternal": true,
+          "isPremium": false
+         }
+        ]
+       },
+       {
+        "provider": {
+         "id": "2000",
+         "name": "Bet 365",
+         "priority": 0
+        },
+        "awayTeamOdds": {
+         "team": {
+          "id": "360",
+          "name": "Manchester United",
+          "abbreviation": "MAN",
+          "displayName": "Manchester United",
+          "shortDisplayName": "Man United"
+         },
+         "odds": {
+          "summary": "11/5",
+          "value": 3.2,
+          "handicap": 0
+         }
+        },
+        "homeTeamOdds": {
+         "team": {
+          "id": "1068",
+          "name": "Atlético Madrid",
+          "abbreviation": "ATM",
+          "displayName": "Atlético Madrid",
+          "shortDisplayName": "Atlético"
+         },
+         "odds": {
+          "summary": "21/20",
+          "value": 2.05,
+          "handicap": 0
+         }
+        },
+        "drawOdds": {
+         "summary": "14/5",
+         "value": 3.8,
+         "handicap": 0
+        },
+        "links": [
+         {
+          "language": "en-US",
+          "rel": [
+           "home",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057505-2115100059~21/20",
+          "text": "Home Bet",
+          "shortText": "Home Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "away",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057505-2115100061~11/5",
+          "text": "Away Bet",
+          "shortText": "Away Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "draw",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057505-2115100060~14/5",
+          "text": "Draw Bet",
+          "shortText": "Draw Bet",
+          "isExternal": true,
+          "isPremium": false
+         }
+        ]
+       }
+      ],
+      "broadcasts": [
+       {
+        "type": {
+         "id": "4",
+         "shortName": "STREAMING"
+        },
+        "media": {
+         "shortName": "Paramount+"
+        },
+        "lang": "en",
+        "region": "us"
+       }
+      ],
+      "tickets": [
+       {
+        "id": "7497161",
+        "summary": "Tickets as low as $129",
+        "description": "Champions League - Atletico Madrid vs Manchester United",
+        "maxPrice": 2117,
+        "startingPrice": 129,
+        "numberAvailable": 693,
+        "totalPostings": 134,
+        "links": [
+         {
+          "rel": [
+           "tickets",
+           "desktop",
+           "event"
+          ],
+          "href": "https://www.vividseats.com/atletico-madrid-tickets-riyadh-air-metropolitano-10-14-2026--sports-soccer/production/7497161?wsUser=717"
+         },
+         {
+          "rel": [
+           "tickets",
+           "desktop",
+           "venue"
+          ],
+          "href": "https://www.vividseats.com/venues/riyadh-air-metropolitano-tickets.html?wsUser=717"
+         }
+        ]
+       },
+       {
+        "id": "7504712",
+        "summary": "Tickets as low as $370",
+        "description": "Champions League - Atletico Madrid vs Manchester United FC",
+        "maxPrice": 11519,
+        "startingPrice": 370,
+        "numberAvailable": 146,
+        "totalPostings": 38,
+        "links": [
+         {
+          "rel": [
+           "tickets",
+           "desktop",
+           "event"
+          ],
+          "href": "https://www.vividseats.com/champions-league-tickets-riyadh-air-metropolitano-10-13-2026--sports-soccer/production/7504712?wsUser=717"
+         },
+         {
+          "rel": [
+           "tickets",
+           "desktop",
+           "venue"
+          ],
+          "href": "https://www.vividseats.com/venues/riyadh-air-metropolitano-tickets.html?wsUser=717"
+         }
+        ]
+       }
+      ],
+      "status": {
+       "clock": 0,
+       "addedClock": 0,
+       "displayClock": "0'",
+       "period": 0,
+       "type": {
+        "id": "1",
+        "name": "STATUS_SCHEDULED",
+        "state": "pre",
+        "completed": false,
+        "description": "Scheduled",
+        "detail": "Tue, October 13th at 3:00 PM EDT",
+        "shortDetail": "10/13 - 3:00 PM EDT"
+       }
+      }
+     }
+    ],
+    "links": [
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/match/_/gameId/401915412/manchester-united-atletico-madrid",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "mobile",
+       "event"
+      ],
+      "href": "https://m.espn.com/soccer/match?gameId=401915412&action=summary",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "sportscenter",
+       "app",
+       "event"
+      ],
+      "href": "sportscenter://x-callback-url/showGame?sportName=soccer&leagueAbbrev=uefa.champions&gameId=401915412",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "videos",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/video/_/gameId/401915412",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "standings",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/table/_/league/uefa.champions",
+      "text": "Table",
+      "shortText": "Table",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "odds",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/odds/_/gameId/401915412",
+      "text": "Odds",
+      "shortText": "Odds",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "odds",
+       "mobile",
+       "event"
+      ],
+      "href": "https://m.espn.com/soccer/odds/_/gameId/401915412",
+      "text": "Odds",
+      "shortText": "Odds",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "livestandings",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/table/_/gameId/401915412",
+      "text": "Live Table",
+      "shortText": "Live Table",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/matchstats/_/gameId/401915412",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "commentary",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/commentary/_/gameId/401915412",
+      "text": "Commentary",
+      "shortText": "Commentary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "bet365",
+       "desktop",
+       "event"
+      ],
+      "href": "http://www.bet365.com/home/?affiliate=365_351846",
+      "text": "Bet 365",
+      "shortText": "Bet 365",
+      "isExternal": true,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "player-stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/player-stats/_/gameId/401915412/league/uefa.champions",
+      "text": "Player Stats",
+      "shortText": "Player Stats",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "team-stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/team-stats/_/gameId/401915412/league/uefa.champions",
+      "text": "Team Stats",
+      "shortText": "Team Stats",
+      "isExternal": false,
+      "isPremium": false
+     }
+    ],
+    "league": {
+     "id": "775",
+     "alternateId": "2",
+     "name": "UEFA Champions League",
+     "abbreviation": "UEFA Champions League",
+     "shortName": "UEFA Champions League",
+     "midsizeName": "UEFA.CHAMPIONS",
+     "slug": "uefa.champions",
+     "isTournament": true
+    }
+   }
+  ],
+  "standingSummary": "25th in Spanish LALIGA"
+ }
+}

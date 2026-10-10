@@ -1,0 +1,1388 @@
+{
+ "team": {
+  "id": "114",
+  "uid": "s:600~t:114",
+  "slug": "ita.napoli",
+  "location": "Napoli",
+  "name": "Napoli",
+  "abbreviation": "NAP",
+  "displayName": "Napoli",
+  "shortDisplayName": "Napoli",
+  "color": "0677d2",
+  "alternateColor": "ffffff",
+  "isActive": true,
+  "logos": [
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "default"
+    ],
+    "lastUpdated": "2019-05-08T16:07Z"
+   },
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/114.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "dark"
+    ],
+    "lastUpdated": "2019-05-08T16:07Z"
+   }
+  ],
+  "record": {
+   "items": [
+    {
+     "description": "Overall Record",
+     "type": "total",
+     "summary": "0-0-1",
+     "stats": [
+      {
+       "name": "gamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "losses",
+       "value": 1
+      },
+      {
+       "name": "pointDifferential",
+       "value": -1
+      },
+      {
+       "name": "points",
+       "value": 0
+      },
+      {
+       "name": "pointsAgainst",
+       "value": 1
+      },
+      {
+       "name": "pointsFor",
+       "value": 0
+      },
+      {
+       "name": "streak",
+       "value": 0
+      },
+      {
+       "name": "ties",
+       "value": 0
+      },
+      {
+       "name": "wins",
+       "value": 0
+      },
+      {
+       "name": "advanced",
+       "value": 0
+      },
+      {
+       "name": "awayGamesPlayed",
+       "value": 0
+      },
+      {
+       "name": "awayLosses",
+       "value": 0
+      },
+      {
+       "name": "awayPointsAgainst",
+       "value": 0
+      },
+      {
+       "name": "awayPointsFor",
+       "value": 0
+      },
+      {
+       "name": "awayTies",
+       "value": 0
+      },
+      {
+       "name": "awayWins",
+       "value": 0
+      },
+      {
+       "name": "deductions",
+       "value": 0
+      },
+      {
+       "name": "homeGamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "homeLosses",
+       "value": 1
+      },
+      {
+       "name": "homePointsAgainst",
+       "value": 1
+      },
+      {
+       "name": "homePointsFor",
+       "value": 0
+      },
+      {
+       "name": "homeTies",
+       "value": 0
+      },
+      {
+       "name": "homeWins",
+       "value": 0
+      },
+      {
+       "name": "ppg",
+       "value": 0
+      },
+      {
+       "name": "rank",
+       "value": 28
+      },
+      {
+       "name": "rankChange",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "id": "1"
+  },
+  "links": [
+   {
+    "language": "en-US",
+    "rel": [
+     "clubhouse",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/club/_/id/114/napoli",
+    "text": "Clubhouse",
+    "shortText": "Clubhouse",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/stats/_/id/114/napoli",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:114&section=stats",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/fixtures/_/id/114/napoli",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:114&section=scores",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/results/_/id/114/napoli",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:114&section=scores",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:114&section=standings",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/squad/_/id/114/napoli",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:114&section=squad",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   }
+  ],
+  "defaultLeague": {
+   "id": "730",
+   "alternateId": "12",
+   "name": "Italian Serie A",
+   "abbreviation": "Serie A",
+   "shortName": "Serie A",
+   "midsizeName": "ITA.1",
+   "slug": "ita.1",
+   "season": {
+    "type": {
+     "hasStandings": true
+    }
+   },
+   "links": [
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/league/_/name/ita.1",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:730",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/schedule/_/league/ita.1",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:730&section=scores",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/table/_/league/ita.1",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:730&section=standings",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/scoreboard/_/league/ita.1",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:730&section=scores",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/stats/_/league/ita.1",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:730&section=stats",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "teams",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/teams/_/league/ita.1",
+     "text": "Teams",
+     "shortText": "Teams",
+     "isExternal": false,
+     "isPremium": false
+    }
+   ],
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/12.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "default"
+     ],
+     "lastUpdated": "2019-07-31T17:57Z"
+    },
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/12.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "dark"
+     ],
+     "lastUpdated": "2019-07-31T17:57Z"
+    }
+   ]
+  },
+  "leagueAbbrev": "ita.1",
+  "nextEvent": [
+   {
+    "id": "401915410",
+    "date": "2026-10-13T19:00Z",
+    "name": "Napoli at Villarreal",
+    "shortName": "NAP @ VIL",
+    "season": {
+     "year": 2026,
+     "displayName": "2026-27 UEFA Champions League"
+    },
+    "seasonType": {
+     "id": "1",
+     "type": 14534,
+     "name": "League Phase",
+     "abbreviation": "League Phase"
+    },
+    "timeValid": true,
+    "competitions": [
+     {
+      "id": "401915410",
+      "date": "2026-10-13T19:00Z",
+      "attendance": 0,
+      "timeValid": true,
+      "neutralSite": false,
+      "boxscoreAvailable": true,
+      "ticketsAvailable": true,
+      "venue": {
+       "fullName": "Estadio de la Cerámica",
+       "address": {
+        "city": "Villarreal",
+        "country": "Spain"
+       }
+      },
+      "competitors": [
+       {
+        "id": "102",
+        "type": "team",
+        "order": 0,
+        "homeAway": "home",
+        "winner": false,
+        "team": {
+         "id": "102",
+         "location": "Villarreal",
+         "abbreviation": "VIL",
+         "displayName": "Villarreal",
+         "shortDisplayName": "Villarreal",
+         "logos": [
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "default"
+           ],
+           "lastUpdated": "2021-08-02T20:09Z"
+          },
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/102.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "dark"
+           ],
+           "lastUpdated": "2021-08-02T20:12Z"
+          }
+         ],
+         "links": [
+          {
+           "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/club/_/id/102/villarreal",
+           "text": "Clubhouse"
+          },
+          {
+           "rel": [
+            "stats",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/stats/_/id/102/villarreal",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:102&section=stats",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "schedule",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/fixtures/_/id/102/villarreal",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:102&section=scores",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "results",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/results/_/id/102/villarreal",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "results",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:102&section=scores",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "standings",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:102&section=standings",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "squad",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/squad/_/id/102/villarreal",
+           "text": "Squad"
+          },
+          {
+           "rel": [
+            "squad",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:102&section=squad",
+           "text": "Squad"
+          }
+         ]
+        }
+       },
+       {
+        "id": "114",
+        "type": "team",
+        "order": 1,
+        "homeAway": "away",
+        "winner": false,
+        "team": {
+         "id": "114",
+         "location": "Napoli",
+         "abbreviation": "NAP",
+         "displayName": "Napoli",
+         "shortDisplayName": "Napoli",
+         "logos": [
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "default"
+           ],
+           "lastUpdated": "2019-05-08T16:07Z"
+          },
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/114.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "dark"
+           ],
+           "lastUpdated": "2019-05-08T16:07Z"
+          }
+         ],
+         "links": [
+          {
+           "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/club/_/id/114/napoli",
+           "text": "Clubhouse"
+          },
+          {
+           "rel": [
+            "stats",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/stats/_/id/114/napoli",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:114&section=stats",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "schedule",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/fixtures/_/id/114/napoli",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:114&section=scores",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "results",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/results/_/id/114/napoli",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "results",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:114&section=scores",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "standings",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:114&section=standings",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "squad",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/squad/_/id/114/napoli",
+           "text": "Squad"
+          },
+          {
+           "rel": [
+            "squad",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:114&section=squad",
+           "text": "Squad"
+          }
+         ]
+        }
+       }
+      ],
+      "notes": [],
+      "odds": [
+       {
+        "provider": {
+         "id": "100",
+         "name": "DraftKings",
+         "priority": 1
+        },
+        "details": "VIL +120",
+        "overUnder": 2.5,
+        "spread": -0.5,
+        "awayTeamOdds": {
+         "favorite": false,
+         "underdog": true,
+         "moneyLine": 205,
+         "spreadOdds": -155,
+         "open": {
+          "favorite": false,
+          "pointSpread": {
+           "alternateDisplayValue": "+0.5",
+           "american": "+0.5"
+          },
+          "spread": {
+           "value": 1.57,
+           "displayValue": "4/7",
+           "alternateDisplayValue": "-175",
+           "decimal": 1.57,
+           "fraction": "4/7",
+           "american": "-175"
+          },
+          "moneyLine": {
+           "value": 2.95,
+           "displayValue": "39/20",
+           "alternateDisplayValue": "+195",
+           "decimal": 2.95,
+           "fraction": "39/20",
+           "american": "+195"
+          }
+         },
+         "current": {
+          "pointSpread": {
+           "alternateDisplayValue": "+0.5",
+           "american": "+0.5"
+          },
+          "spread": {
+           "value": 1.64,
+           "displayValue": "20/31",
+           "alternateDisplayValue": "-155",
+           "decimal": 1.64,
+           "fraction": "20/31",
+           "american": "-155"
+          },
+          "moneyLine": {
+           "value": 3.05,
+           "displayValue": "41/20",
+           "alternateDisplayValue": "+205",
+           "decimal": 3.05,
+           "fraction": "41/20",
+           "american": "+205"
+          }
+         },
+         "team": {
+          "id": "114",
+          "name": "Napoli",
+          "abbreviation": "NAP",
+          "displayName": "Napoli",
+          "shortDisplayName": "Napoli"
+         }
+        },
+        "homeTeamOdds": {
+         "favorite": true,
+         "underdog": false,
+         "moneyLine": 120,
+         "spreadOdds": 105,
+         "open": {
+          "favorite": true,
+          "pointSpread": {
+           "alternateDisplayValue": "-0.5",
+           "american": "-0.5"
+          },
+          "spread": {
+           "value": 2.15,
+           "displayValue": "23/20",
+           "alternateDisplayValue": "+115",
+           "decimal": 2.15,
+           "fraction": "23/20",
+           "american": "+115"
+          },
+          "moneyLine": {
+           "value": 2.25,
+           "displayValue": "5/4",
+           "alternateDisplayValue": "+125",
+           "decimal": 2.25,
+           "fraction": "5/4",
+           "american": "+125"
+          }
+         },
+         "current": {
+          "pointSpread": {
+           "alternateDisplayValue": "-0.5",
+           "american": "-0.5"
+          },
+          "spread": {
+           "value": 2.05,
+           "displayValue": "21/20",
+           "alternateDisplayValue": "+105",
+           "decimal": 2.05,
+           "fraction": "21/20",
+           "american": "+105"
+          },
+          "moneyLine": {
+           "value": 2.2,
+           "displayValue": "6/5",
+           "alternateDisplayValue": "+120",
+           "decimal": 2.2,
+           "fraction": "6/5",
+           "american": "+120"
+          }
+         },
+         "team": {
+          "id": "102",
+          "name": "Villarreal",
+          "abbreviation": "VIL",
+          "displayName": "Villarreal",
+          "shortDisplayName": "Villarreal"
+         }
+        },
+        "drawOdds": {
+         "moneyLine": 265
+        },
+        "links": [
+         {
+          "language": "en-US",
+          "rel": [
+           "home",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654788%3Foutcomes%3D0ML86264671_1",
+          "text": "Home Bet",
+          "shortText": "Home Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "away",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654788%3Foutcomes%3D0ML86264671_3",
+          "text": "Away Bet",
+          "shortText": "Away Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "draw",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654788%3Foutcomes%3D0ML86264671_2",
+          "text": "Draw Bet",
+          "shortText": "Draw Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "homeSpread",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654788%3Foutcomes%3D0HC86264953N50_1",
+          "text": "Home Point Spread",
+          "shortText": "Home Point Spread",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "awaySpread",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654788%3Foutcomes%3D0HC86264953P50_3",
+          "text": "Away Point Spread",
+          "shortText": "Away Point Spread",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "over",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654788%3Foutcomes%3D0OU86264948O250_1",
+          "text": "Over Odds",
+          "shortText": "Over Odds",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "under",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654788%3Foutcomes%3D0OU86264948U250_3",
+          "text": "Under Odds",
+          "shortText": "Under Odds",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "game",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654788",
+          "text": "Game",
+          "shortText": "Game",
+          "isExternal": true,
+          "isPremium": false
+         }
+        ]
+       },
+       {
+        "provider": {
+         "id": "2000",
+         "name": "Bet 365",
+         "priority": 0
+        },
+        "awayTeamOdds": {
+         "team": {
+          "id": "114",
+          "name": "Napoli",
+          "abbreviation": "NAP",
+          "displayName": "Napoli",
+          "shortDisplayName": "Napoli"
+         },
+         "odds": {
+          "summary": "21/10",
+          "value": 3.1,
+          "handicap": 0
+         }
+        },
+        "homeTeamOdds": {
+         "team": {
+          "id": "102",
+          "name": "Villarreal",
+          "abbreviation": "VIL",
+          "displayName": "Villarreal",
+          "shortDisplayName": "Villarreal"
+         },
+         "odds": {
+          "summary": "6/5",
+          "value": 2.2,
+          "handicap": 0
+         }
+        },
+        "drawOdds": {
+         "summary": "5/2",
+         "value": 3.5,
+         "handicap": 0
+        },
+        "links": [
+         {
+          "language": "en-US",
+          "rel": [
+           "home",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057515-2115100451~6/5",
+          "text": "Home Bet",
+          "shortText": "Home Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "away",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057515-2115100453~21/10",
+          "text": "Away Bet",
+          "shortText": "Away Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "draw",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057515-2115100452~5/2",
+          "text": "Draw Bet",
+          "shortText": "Draw Bet",
+          "isExternal": true,
+          "isPremium": false
+         }
+        ]
+       }
+      ],
+      "broadcasts": [
+       {
+        "type": {
+         "id": "4",
+         "shortName": "STREAMING"
+        },
+        "media": {
+         "shortName": "Paramount+"
+        },
+        "lang": "en",
+        "region": "us"
+       }
+      ],
+      "tickets": [
+       {
+        "id": "7507506",
+        "summary": "Tickets as low as $898",
+        "description": "Champions League - Villarreal vs SSC Napoli",
+        "maxPrice": 2987,
+        "startingPrice": 898,
+        "numberAvailable": 16,
+        "totalPostings": 8,
+        "links": [
+         {
+          "rel": [
+           "tickets",
+           "desktop",
+           "event"
+          ],
+          "href": "https://www.vividseats.com/champions-league-tickets-estadio-de-la-ceramica-10-13-2026--sports-soccer/production/7507506?wsUser=717"
+         },
+         {
+          "rel": [
+           "tickets",
+           "desktop",
+           "venue"
+          ],
+          "href": "https://www.vividseats.com/venues/estadio-de-la-ceramica-tickets.html?wsUser=717"
+         }
+        ]
+       }
+      ],
+      "status": {
+       "clock": 0,
+       "addedClock": 0,
+       "displayClock": "0'",
+       "period": 0,
+       "type": {
+        "id": "1",
+        "name": "STATUS_SCHEDULED",
+        "state": "pre",
+        "completed": false,
+        "description": "Scheduled",
+        "detail": "Tue, October 13th at 3:00 PM EDT",
+        "shortDetail": "10/13 - 3:00 PM EDT"
+       }
+      }
+     }
+    ],
+    "links": [
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/match/_/gameId/401915410/napoli-villarreal",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "mobile",
+       "event"
+      ],
+      "href": "https://m.espn.com/soccer/match?gameId=401915410&action=summary",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "sportscenter",
+       "app",
+       "event"
+      ],
+      "href": "sportscenter://x-callback-url/showGame?sportName=soccer&leagueAbbrev=uefa.champions&gameId=401915410",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "videos",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/video/_/gameId/401915410",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "standings",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/table/_/league/uefa.champions",
+      "text": "Table",
+      "shortText": "Table",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "odds",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/odds/_/gameId/401915410",
+      "text": "Odds",
+      "shortText": "Odds",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "odds",
+       "mobile",
+       "event"
+      ],
+      "href": "https://m.espn.com/soccer/odds/_/gameId/401915410",
+      "text": "Odds",
+      "shortText": "Odds",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "livestandings",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/table/_/gameId/401915410",
+      "text": "Live Table",
+      "shortText": "Live Table",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/matchstats/_/gameId/401915410",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "commentary",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/commentary/_/gameId/401915410",
+      "text": "Commentary",
+      "shortText": "Commentary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "bet365",
+       "desktop",
+       "event"
+      ],
+      "href": "http://www.bet365.com/home/?affiliate=365_351846",
+      "text": "Bet 365",
+      "shortText": "Bet 365",
+      "isExternal": true,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "player-stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/player-stats/_/gameId/401915410/league/uefa.champions",
+      "text": "Player Stats",
+      "shortText": "Player Stats",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "team-stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/team-stats/_/gameId/401915410/league/uefa.champions",
+      "text": "Team Stats",
+      "shortText": "Team Stats",
+      "isExternal": false,
+      "isPremium": false
+     }
+    ],
+    "league": {
+     "id": "775",
+     "alternateId": "2",
+     "name": "UEFA Champions League",
+     "abbreviation": "UEFA Champions League",
+     "shortName": "UEFA Champions League",
+     "midsizeName": "UEFA.CHAMPIONS",
+     "slug": "uefa.champions",
+     "isTournament": true
+    }
+   }
+  ],
+  "standingSummary": "28th in Italian Serie A"
+ }
+}

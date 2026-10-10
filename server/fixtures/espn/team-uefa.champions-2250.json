@@ -1,0 +1,498 @@
+{
+ "team": {
+  "id": "2250",
+  "uid": "s:600~t:2250",
+  "slug": "por.sporting_lisbon",
+  "location": "Sporting CP",
+  "name": "Sporting CP",
+  "abbreviation": "SCP",
+  "displayName": "Sporting CP",
+  "shortDisplayName": "Sporting",
+  "color": "008127",
+  "alternateColor": "ffffff",
+  "isActive": true,
+  "logos": [
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "default"
+    ],
+    "lastUpdated": "2019-05-08T16:07Z"
+   },
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/2250.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "dark"
+    ],
+    "lastUpdated": "2019-05-08T16:07Z"
+   }
+  ],
+  "record": {
+   "items": [
+    {
+     "description": "Overall Record",
+     "type": "total",
+     "summary": "1-0-0",
+     "stats": [
+      {
+       "name": "gamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "losses",
+       "value": 0
+      },
+      {
+       "name": "pointDifferential",
+       "value": 2
+      },
+      {
+       "name": "points",
+       "value": 3
+      },
+      {
+       "name": "pointsAgainst",
+       "value": 1
+      },
+      {
+       "name": "pointsFor",
+       "value": 3
+      },
+      {
+       "name": "streak",
+       "value": 0
+      },
+      {
+       "name": "ties",
+       "value": 0
+      },
+      {
+       "name": "wins",
+       "value": 1
+      },
+      {
+       "name": "advanced",
+       "value": 0
+      },
+      {
+       "name": "awayGamesPlayed",
+       "value": 0
+      },
+      {
+       "name": "awayLosses",
+       "value": 0
+      },
+      {
+       "name": "awayPointsAgainst",
+       "value": 0
+      },
+      {
+       "name": "awayPointsFor",
+       "value": 0
+      },
+      {
+       "name": "awayTies",
+       "value": 0
+      },
+      {
+       "name": "awayWins",
+       "value": 0
+      },
+      {
+       "name": "deductions",
+       "value": 0
+      },
+      {
+       "name": "homeGamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "homeLosses",
+       "value": 0
+      },
+      {
+       "name": "homePointsAgainst",
+       "value": 1
+      },
+      {
+       "name": "homePointsFor",
+       "value": 3
+      },
+      {
+       "name": "homeTies",
+       "value": 0
+      },
+      {
+       "name": "homeWins",
+       "value": 1
+      },
+      {
+       "name": "ppg",
+       "value": 0
+      },
+      {
+       "name": "rank",
+       "value": 6
+      },
+      {
+       "name": "rankChange",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "id": "1"
+  },
+  "links": [
+   {
+    "language": "en-US",
+    "rel": [
+     "clubhouse",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/club/_/id/2250/sporting-cp",
+    "text": "Clubhouse",
+    "shortText": "Clubhouse",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/stats/_/id/2250/sporting-cp",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2250&section=stats",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/fixtures/_/id/2250/sporting-cp",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2250&section=scores",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/results/_/id/2250/sporting-cp",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2250&section=scores",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2250&section=standings",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/squad/_/id/2250/sporting-cp",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:2250&section=squad",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   }
+  ],
+  "defaultLeague": {
+   "id": "715",
+   "alternateId": "14",
+   "name": "Portuguese Primeira Liga",
+   "abbreviation": "Portuguese Liga",
+   "shortName": "Liga Portugal",
+   "midsizeName": "POR.1",
+   "slug": "por.1",
+   "season": {
+    "type": {
+     "hasStandings": true
+    }
+   },
+   "links": [
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/league/_/name/por.1",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:715",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/schedule/_/league/por.1",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:715&section=scores",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/table/_/league/por.1",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:715&section=standings",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/scoreboard/_/league/por.1",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:715&section=scores",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/stats/_/league/por.1",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:715&section=stats",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "teams",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/teams/_/league/por.1",
+     "text": "Teams",
+     "shortText": "Teams",
+     "isExternal": false,
+     "isPremium": false
+    }
+   ],
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/14.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "default"
+     ],
+     "lastUpdated": "2019-05-08T16:07Z"
+    },
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/14.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "dark"
+     ],
+     "lastUpdated": "2019-05-08T16:07Z"
+    }
+   ]
+  },
+  "leagueAbbrev": "por.1",
+  "nextEvent": [],
+  "standingSummary": "6th in Portuguese Primeira Liga"
+ }
+}

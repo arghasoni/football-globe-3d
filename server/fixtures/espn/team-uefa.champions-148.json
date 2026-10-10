@@ -1,0 +1,498 @@
+{
+ "team": {
+  "id": "148",
+  "uid": "s:600~t:148",
+  "slug": "ned.psv",
+  "location": "PSV Eindhoven",
+  "name": "PSV Eindhoven",
+  "abbreviation": "PSV",
+  "displayName": "PSV Eindhoven",
+  "shortDisplayName": "PSV",
+  "color": "ef2f24",
+  "alternateColor": "000000",
+  "isActive": true,
+  "logos": [
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "default"
+    ],
+    "lastUpdated": "2020-11-16T15:55Z"
+   },
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/148.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "dark"
+    ],
+    "lastUpdated": "2020-11-16T15:56Z"
+   }
+  ],
+  "record": {
+   "items": [
+    {
+     "description": "Overall Record",
+     "type": "total",
+     "summary": "0-1-0",
+     "stats": [
+      {
+       "name": "gamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "losses",
+       "value": 0
+      },
+      {
+       "name": "pointDifferential",
+       "value": 0
+      },
+      {
+       "name": "points",
+       "value": 1
+      },
+      {
+       "name": "pointsAgainst",
+       "value": 1
+      },
+      {
+       "name": "pointsFor",
+       "value": 1
+      },
+      {
+       "name": "streak",
+       "value": 0
+      },
+      {
+       "name": "ties",
+       "value": 1
+      },
+      {
+       "name": "wins",
+       "value": 0
+      },
+      {
+       "name": "advanced",
+       "value": 0
+      },
+      {
+       "name": "awayGamesPlayed",
+       "value": 0
+      },
+      {
+       "name": "awayLosses",
+       "value": 0
+      },
+      {
+       "name": "awayPointsAgainst",
+       "value": 0
+      },
+      {
+       "name": "awayPointsFor",
+       "value": 0
+      },
+      {
+       "name": "awayTies",
+       "value": 0
+      },
+      {
+       "name": "awayWins",
+       "value": 0
+      },
+      {
+       "name": "deductions",
+       "value": 0
+      },
+      {
+       "name": "homeGamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "homeLosses",
+       "value": 0
+      },
+      {
+       "name": "homePointsAgainst",
+       "value": 1
+      },
+      {
+       "name": "homePointsFor",
+       "value": 1
+      },
+      {
+       "name": "homeTies",
+       "value": 1
+      },
+      {
+       "name": "homeWins",
+       "value": 0
+      },
+      {
+       "name": "ppg",
+       "value": 0
+      },
+      {
+       "name": "rank",
+       "value": 20
+      },
+      {
+       "name": "rankChange",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "id": "1"
+  },
+  "links": [
+   {
+    "language": "en-US",
+    "rel": [
+     "clubhouse",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/club/_/id/148/psv-eindhoven",
+    "text": "Clubhouse",
+    "shortText": "Clubhouse",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/stats/_/id/148/psv-eindhoven",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:148&section=stats",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/fixtures/_/id/148/psv-eindhoven",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:148&section=scores",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/results/_/id/148/psv-eindhoven",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:148&section=scores",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:148&section=standings",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/squad/_/id/148/psv-eindhoven",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:148&section=squad",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   }
+  ],
+  "defaultLeague": {
+   "id": "725",
+   "alternateId": "11",
+   "name": "Dutch Eredivisie",
+   "abbreviation": "Eredivisie",
+   "shortName": "Eredivisie",
+   "midsizeName": "NED.1",
+   "slug": "ned.1",
+   "season": {
+    "type": {
+     "hasStandings": true
+    }
+   },
+   "links": [
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/league/_/name/ned.1",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:725",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/schedule/_/league/ned.1",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:725&section=scores",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/table/_/league/ned.1",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:725&section=standings",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/scoreboard/_/league/ned.1",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:725&section=scores",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/stats/_/league/ned.1",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:725&section=stats",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "teams",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/teams/_/league/ned.1",
+     "text": "Teams",
+     "shortText": "Teams",
+     "isExternal": false,
+     "isPremium": false
+    }
+   ],
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/11.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "default"
+     ],
+     "lastUpdated": "2025-07-01T14:53Z"
+    },
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/11.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "dark"
+     ],
+     "lastUpdated": "2025-07-01T14:53Z"
+    }
+   ]
+  },
+  "leagueAbbrev": "ned.1",
+  "nextEvent": [],
+  "standingSummary": "20th in Dutch Eredivisie"
+ }
+}

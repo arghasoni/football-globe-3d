@@ -1,0 +1,1361 @@
+{
+ "team": {
+  "id": "83",
+  "uid": "s:600~t:83",
+  "slug": "esp.barcelona",
+  "location": "Barcelona",
+  "name": "Barcelona",
+  "nickname": "Barça",
+  "abbreviation": "BAR",
+  "displayName": "Barcelona",
+  "shortDisplayName": "Barcelona",
+  "color": "990000",
+  "alternateColor": "FCE38A",
+  "isActive": true,
+  "logos": [
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "default"
+    ],
+    "lastUpdated": "2019-05-08T16:07Z"
+   },
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/83.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "dark"
+    ],
+    "lastUpdated": "2019-05-08T16:07Z"
+   }
+  ],
+  "record": {
+   "items": [
+    {
+     "description": "Overall Record",
+     "type": "total",
+     "summary": "1-0-0",
+     "stats": [
+      {
+       "name": "gamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "losses",
+       "value": 0
+      },
+      {
+       "name": "pointDifferential",
+       "value": 4
+      },
+      {
+       "name": "points",
+       "value": 3
+      },
+      {
+       "name": "pointsAgainst",
+       "value": 1
+      },
+      {
+       "name": "pointsFor",
+       "value": 5
+      },
+      {
+       "name": "streak",
+       "value": 0
+      },
+      {
+       "name": "ties",
+       "value": 0
+      },
+      {
+       "name": "wins",
+       "value": 1
+      },
+      {
+       "name": "advanced",
+       "value": 0
+      },
+      {
+       "name": "awayGamesPlayed",
+       "value": 0
+      },
+      {
+       "name": "awayLosses",
+       "value": 0
+      },
+      {
+       "name": "awayPointsAgainst",
+       "value": 0
+      },
+      {
+       "name": "awayPointsFor",
+       "value": 0
+      },
+      {
+       "name": "awayTies",
+       "value": 0
+      },
+      {
+       "name": "awayWins",
+       "value": 0
+      },
+      {
+       "name": "deductions",
+       "value": 0
+      },
+      {
+       "name": "homeGamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "homeLosses",
+       "value": 0
+      },
+      {
+       "name": "homePointsAgainst",
+       "value": 1
+      },
+      {
+       "name": "homePointsFor",
+       "value": 5
+      },
+      {
+       "name": "homeTies",
+       "value": 0
+      },
+      {
+       "name": "homeWins",
+       "value": 1
+      },
+      {
+       "name": "ppg",
+       "value": 0
+      },
+      {
+       "name": "rank",
+       "value": 3
+      },
+      {
+       "name": "rankChange",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "id": "1"
+  },
+  "links": [
+   {
+    "language": "en-US",
+    "rel": [
+     "clubhouse",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/club/_/id/83/barcelona",
+    "text": "Clubhouse",
+    "shortText": "Clubhouse",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/stats/_/id/83/barcelona",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=stats",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/fixtures/_/id/83/barcelona",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=scores",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/results/_/id/83/barcelona",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=scores",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=standings",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/squad/_/id/83/barcelona",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=squad",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   }
+  ],
+  "defaultLeague": {
+   "id": "740",
+   "alternateId": "15",
+   "name": "Spanish LALIGA",
+   "abbreviation": "LALIGA",
+   "shortName": "LALIGA",
+   "midsizeName": "ESP.1",
+   "slug": "esp.1",
+   "season": {
+    "type": {
+     "hasStandings": true
+    }
+   },
+   "links": [
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/league/_/name/esp.1",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/schedule/_/league/esp.1",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=scores",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/table/_/league/esp.1",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=standings",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/scoreboard/_/league/esp.1",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=scores",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/stats/_/league/esp.1",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:740&section=stats",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "teams",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/teams/_/league/esp.1",
+     "text": "Teams",
+     "shortText": "Teams",
+     "isExternal": false,
+     "isPremium": false
+    }
+   ],
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/15.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "default"
+     ],
+     "lastUpdated": "2025-07-30T16:01Z"
+    },
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/15.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "dark"
+     ],
+     "lastUpdated": "2025-07-30T13:25Z"
+    }
+   ]
+  },
+  "leagueAbbrev": "esp.1",
+  "nextEvent": [
+   {
+    "id": "401915435",
+    "date": "2026-10-13T19:00Z",
+    "name": "Barcelona at Galatasaray",
+    "shortName": "BAR @ GAL",
+    "season": {
+     "year": 2026,
+     "displayName": "2026-27 UEFA Champions League"
+    },
+    "seasonType": {
+     "id": "1",
+     "type": 14534,
+     "name": "League Phase",
+     "abbreviation": "League Phase"
+    },
+    "timeValid": true,
+    "competitions": [
+     {
+      "id": "401915435",
+      "date": "2026-10-13T19:00Z",
+      "attendance": 0,
+      "timeValid": true,
+      "neutralSite": false,
+      "boxscoreAvailable": true,
+      "ticketsAvailable": false,
+      "venue": {
+       "fullName": "RAMS Park",
+       "address": {
+        "city": "Istanbul",
+        "country": "Türkiye"
+       }
+      },
+      "competitors": [
+       {
+        "id": "432",
+        "type": "team",
+        "order": 0,
+        "homeAway": "home",
+        "winner": false,
+        "team": {
+         "id": "432",
+         "location": "Galatasaray",
+         "abbreviation": "GAL",
+         "displayName": "Galatasaray",
+         "shortDisplayName": "Galatasaray",
+         "logos": [
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "default"
+           ],
+           "lastUpdated": "2019-05-08T16:07Z"
+          },
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/432.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "dark"
+           ],
+           "lastUpdated": "2019-05-08T16:07Z"
+          }
+         ],
+         "links": [
+          {
+           "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/club/_/id/432/galatasaray",
+           "text": "Clubhouse"
+          },
+          {
+           "rel": [
+            "stats",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/stats/_/id/432/galatasaray",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:432&section=stats",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "schedule",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/fixtures/_/id/432/galatasaray",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:432&section=scores",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "results",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/results/_/id/432/galatasaray",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "results",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:432&section=scores",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "standings",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:432&section=standings",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "squad",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/squad/_/id/432/galatasaray",
+           "text": "Squad"
+          },
+          {
+           "rel": [
+            "squad",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:432&section=squad",
+           "text": "Squad"
+          }
+         ]
+        }
+       },
+       {
+        "id": "83",
+        "type": "team",
+        "order": 1,
+        "homeAway": "away",
+        "winner": false,
+        "team": {
+         "id": "83",
+         "location": "Barcelona",
+         "nickname": "Barça",
+         "abbreviation": "BAR",
+         "displayName": "Barcelona",
+         "shortDisplayName": "Barcelona",
+         "logos": [
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "default"
+           ],
+           "lastUpdated": "2019-05-08T16:07Z"
+          },
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/83.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "dark"
+           ],
+           "lastUpdated": "2019-05-08T16:07Z"
+          }
+         ],
+         "links": [
+          {
+           "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/club/_/id/83/barcelona",
+           "text": "Clubhouse"
+          },
+          {
+           "rel": [
+            "stats",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/stats/_/id/83/barcelona",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=stats",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "schedule",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/fixtures/_/id/83/barcelona",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=scores",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "results",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/results/_/id/83/barcelona",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "results",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=scores",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "standings",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=standings",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "squad",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/squad/_/id/83/barcelona",
+           "text": "Squad"
+          },
+          {
+           "rel": [
+            "squad",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:83&section=squad",
+           "text": "Squad"
+          }
+         ]
+        }
+       }
+      ],
+      "notes": [],
+      "odds": [
+       {
+        "provider": {
+         "id": "100",
+         "name": "DraftKings",
+         "priority": 1
+        },
+        "details": "BAR -350",
+        "overUnder": 4.5,
+        "spread": 1.5,
+        "awayTeamOdds": {
+         "favorite": true,
+         "underdog": false,
+         "moneyLine": -350,
+         "spreadOdds": -155,
+         "open": {
+          "favorite": true,
+          "pointSpread": {
+           "alternateDisplayValue": "-1.5",
+           "american": "-1.5"
+          },
+          "spread": {
+           "value": 1.71,
+           "displayValue": "5/7",
+           "alternateDisplayValue": "-140",
+           "decimal": 1.71,
+           "fraction": "5/7",
+           "american": "-140"
+          },
+          "moneyLine": {
+           "value": 1.31,
+           "displayValue": "5/16",
+           "alternateDisplayValue": "-320",
+           "decimal": 1.31,
+           "fraction": "5/16",
+           "american": "-320"
+          }
+         },
+         "current": {
+          "pointSpread": {
+           "alternateDisplayValue": "-1.5",
+           "american": "-1.5"
+          },
+          "spread": {
+           "value": 1.64,
+           "displayValue": "20/31",
+           "alternateDisplayValue": "-155",
+           "decimal": 1.64,
+           "fraction": "20/31",
+           "american": "-155"
+          },
+          "moneyLine": {
+           "value": 1.28,
+           "displayValue": "2/7",
+           "alternateDisplayValue": "-350",
+           "decimal": 1.28,
+           "fraction": "2/7",
+           "american": "-350"
+          }
+         },
+         "team": {
+          "id": "83",
+          "name": "Barcelona",
+          "abbreviation": "BAR",
+          "displayName": "Barcelona",
+          "shortDisplayName": "Barcelona"
+         }
+        },
+        "homeTeamOdds": {
+         "favorite": false,
+         "underdog": true,
+         "moneyLine": 650,
+         "spreadOdds": 105,
+         "open": {
+          "favorite": false,
+          "pointSpread": {
+           "alternateDisplayValue": "+1.5",
+           "american": "+1.5"
+          },
+          "spread": {
+           "value": 1.9,
+           "displayValue": "10/11",
+           "alternateDisplayValue": "-110",
+           "decimal": 1.9,
+           "fraction": "10/11",
+           "american": "-110"
+          },
+          "moneyLine": {
+           "value": 7,
+           "displayValue": "6/1",
+           "alternateDisplayValue": "+600",
+           "decimal": 7,
+           "fraction": "6/1",
+           "american": "+600"
+          }
+         },
+         "current": {
+          "pointSpread": {
+           "alternateDisplayValue": "+1.5",
+           "american": "+1.5"
+          },
+          "spread": {
+           "value": 2.05,
+           "displayValue": "21/20",
+           "alternateDisplayValue": "+105",
+           "decimal": 2.05,
+           "fraction": "21/20",
+           "american": "+105"
+          },
+          "moneyLine": {
+           "value": 7.5,
+           "displayValue": "13/2",
+           "alternateDisplayValue": "+650",
+           "decimal": 7.5,
+           "fraction": "13/2",
+           "american": "+650"
+          }
+         },
+         "team": {
+          "id": "432",
+          "name": "Galatasaray",
+          "abbreviation": "GAL",
+          "displayName": "Galatasaray",
+          "shortDisplayName": "Galatasaray"
+         }
+        },
+        "drawOdds": {
+         "moneyLine": 550
+        },
+        "links": [
+         {
+          "language": "en-US",
+          "rel": [
+           "home",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654791%3Foutcomes%3D0ML86264676_1",
+          "text": "Home Bet",
+          "shortText": "Home Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "away",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654791%3Foutcomes%3D0ML86264676_3",
+          "text": "Away Bet",
+          "shortText": "Away Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "draw",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654791%3Foutcomes%3D0ML86264676_2",
+          "text": "Draw Bet",
+          "shortText": "Draw Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "homeSpread",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654791%3Foutcomes%3D0HC86264985P150_1",
+          "text": "Home Point Spread",
+          "shortText": "Home Point Spread",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "awaySpread",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654791%3Foutcomes%3D0HC86264985N150_3",
+          "text": "Away Point Spread",
+          "shortText": "Away Point Spread",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "over",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654791%3Foutcomes%3D0OU86264980O450_1",
+          "text": "Over Odds",
+          "shortText": "Over Odds",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "under",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654791%3Foutcomes%3D0OU86264980U450_3",
+          "text": "Under Odds",
+          "shortText": "Under Odds",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "game",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654791",
+          "text": "Game",
+          "shortText": "Game",
+          "isExternal": true,
+          "isPremium": false
+         }
+        ]
+       },
+       {
+        "provider": {
+         "id": "2000",
+         "name": "Bet 365",
+         "priority": 0
+        },
+        "awayTeamOdds": {
+         "team": {
+          "id": "83",
+          "name": "Barcelona",
+          "abbreviation": "BAR",
+          "displayName": "Barcelona",
+          "shortDisplayName": "Barcelona"
+         },
+         "odds": {
+          "summary": "2/7",
+          "value": 1.286,
+          "handicap": 0
+         }
+        },
+        "homeTeamOdds": {
+         "team": {
+          "id": "432",
+          "name": "Galatasaray",
+          "abbreviation": "GAL",
+          "displayName": "Galatasaray",
+          "shortDisplayName": "Galatasaray"
+         },
+         "odds": {
+          "summary": "7/1",
+          "value": 8,
+          "handicap": 0
+         }
+        },
+        "drawOdds": {
+         "summary": "11/2",
+         "value": 6.5,
+         "handicap": 0
+        },
+        "links": [
+         {
+          "language": "en-US",
+          "rel": [
+           "home",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057507-2115100124~7/1",
+          "text": "Home Bet",
+          "shortText": "Home Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "away",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057507-2115100126~2/7",
+          "text": "Away Bet",
+          "shortText": "Away Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "draw",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057507-2115100125~11/2",
+          "text": "Draw Bet",
+          "shortText": "Draw Bet",
+          "isExternal": true,
+          "isPremium": false
+         }
+        ]
+       }
+      ],
+      "broadcasts": [
+       {
+        "type": {
+         "id": "4",
+         "shortName": "STREAMING"
+        },
+        "media": {
+         "shortName": "Paramount+"
+        },
+        "lang": "en",
+        "region": "us"
+       }
+      ],
+      "status": {
+       "clock": 0,
+       "addedClock": 0,
+       "displayClock": "0'",
+       "period": 0,
+       "type": {
+        "id": "1",
+        "name": "STATUS_SCHEDULED",
+        "state": "pre",
+        "completed": false,
+        "description": "Scheduled",
+        "detail": "Tue, October 13th at 3:00 PM EDT",
+        "shortDetail": "10/13 - 3:00 PM EDT"
+       }
+      }
+     }
+    ],
+    "links": [
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/match/_/gameId/401915435/barcelona-galatasaray",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "mobile",
+       "event"
+      ],
+      "href": "https://m.espn.com/soccer/match?gameId=401915435&action=summary",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "sportscenter",
+       "app",
+       "event"
+      ],
+      "href": "sportscenter://x-callback-url/showGame?sportName=soccer&leagueAbbrev=uefa.champions&gameId=401915435",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "videos",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/video/_/gameId/401915435",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "standings",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/table/_/league/uefa.champions",
+      "text": "Table",
+      "shortText": "Table",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "odds",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/odds/_/gameId/401915435",
+      "text": "Odds",
+      "shortText": "Odds",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "odds",
+       "mobile",
+       "event"
+      ],
+      "href": "https://m.espn.com/soccer/odds/_/gameId/401915435",
+      "text": "Odds",
+      "shortText": "Odds",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "livestandings",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/table/_/gameId/401915435",
+      "text": "Live Table",
+      "shortText": "Live Table",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/matchstats/_/gameId/401915435",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "commentary",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/commentary/_/gameId/401915435",
+      "text": "Commentary",
+      "shortText": "Commentary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "bet365",
+       "desktop",
+       "event"
+      ],
+      "href": "http://www.bet365.com/home/?affiliate=365_351846",
+      "text": "Bet 365",
+      "shortText": "Bet 365",
+      "isExternal": true,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "player-stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/player-stats/_/gameId/401915435/league/uefa.champions",
+      "text": "Player Stats",
+      "shortText": "Player Stats",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "team-stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/team-stats/_/gameId/401915435/league/uefa.champions",
+      "text": "Team Stats",
+      "shortText": "Team Stats",
+      "isExternal": false,
+      "isPremium": false
+     }
+    ],
+    "league": {
+     "id": "775",
+     "alternateId": "2",
+     "name": "UEFA Champions League",
+     "abbreviation": "UEFA Champions League",
+     "shortName": "UEFA Champions League",
+     "midsizeName": "UEFA.CHAMPIONS",
+     "slug": "uefa.champions",
+     "isTournament": true
+    }
+   }
+  ],
+  "standingSummary": "3rd in Spanish LALIGA"
+ }
+}

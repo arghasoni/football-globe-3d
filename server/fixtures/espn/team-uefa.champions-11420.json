@@ -1,0 +1,1388 @@
+{
+ "team": {
+  "id": "11420",
+  "uid": "s:600~t:11420",
+  "slug": "ger.rb_leipzig",
+  "location": "RB Leipzig",
+  "name": "RB Leipzig",
+  "abbreviation": "RBL",
+  "displayName": "RB Leipzig",
+  "shortDisplayName": "RB Leipzig",
+  "color": "ffffff",
+  "alternateColor": "740c14",
+  "isActive": true,
+  "logos": [
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "default"
+    ],
+    "lastUpdated": "2024-01-04T17:49Z"
+   },
+   {
+    "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/11420.png",
+    "width": 500,
+    "height": 500,
+    "alt": "",
+    "rel": [
+     "full",
+     "dark"
+    ],
+    "lastUpdated": "2024-01-04T17:52Z"
+   }
+  ],
+  "record": {
+   "items": [
+    {
+     "description": "Overall Record",
+     "type": "total",
+     "summary": "0-0-1",
+     "stats": [
+      {
+       "name": "gamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "losses",
+       "value": 1
+      },
+      {
+       "name": "pointDifferential",
+       "value": -3
+      },
+      {
+       "name": "points",
+       "value": 0
+      },
+      {
+       "name": "pointsAgainst",
+       "value": 4
+      },
+      {
+       "name": "pointsFor",
+       "value": 1
+      },
+      {
+       "name": "streak",
+       "value": 0
+      },
+      {
+       "name": "ties",
+       "value": 0
+      },
+      {
+       "name": "wins",
+       "value": 0
+      },
+      {
+       "name": "advanced",
+       "value": 0
+      },
+      {
+       "name": "awayGamesPlayed",
+       "value": 1
+      },
+      {
+       "name": "awayLosses",
+       "value": 1
+      },
+      {
+       "name": "awayPointsAgainst",
+       "value": 4
+      },
+      {
+       "name": "awayPointsFor",
+       "value": 1
+      },
+      {
+       "name": "awayTies",
+       "value": 0
+      },
+      {
+       "name": "awayWins",
+       "value": 0
+      },
+      {
+       "name": "deductions",
+       "value": 0
+      },
+      {
+       "name": "homeGamesPlayed",
+       "value": 0
+      },
+      {
+       "name": "homeLosses",
+       "value": 0
+      },
+      {
+       "name": "homePointsAgainst",
+       "value": 0
+      },
+      {
+       "name": "homePointsFor",
+       "value": 0
+      },
+      {
+       "name": "homeTies",
+       "value": 0
+      },
+      {
+       "name": "homeWins",
+       "value": 0
+      },
+      {
+       "name": "ppg",
+       "value": 0
+      },
+      {
+       "name": "rank",
+       "value": 32
+      },
+      {
+       "name": "rankChange",
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  "groups": {
+   "id": "1"
+  },
+  "links": [
+   {
+    "language": "en-US",
+    "rel": [
+     "clubhouse",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/club/_/id/11420/rb-leipzig",
+    "text": "Clubhouse",
+    "shortText": "Clubhouse",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/stats/_/id/11420/rb-leipzig",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "stats",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11420&section=stats",
+    "text": "Stats",
+    "shortText": "Stats",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/fixtures/_/id/11420/rb-leipzig",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "schedule",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11420&section=scores",
+    "text": "Fixtures",
+    "shortText": "Fixtures",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/results/_/id/11420/rb-leipzig",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "results",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11420&section=scores",
+    "text": "Results",
+    "shortText": "Results",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "standings",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11420&section=standings",
+    "text": "Standings",
+    "shortText": "Standings",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "desktop",
+     "team"
+    ],
+    "href": "https://www.espn.com/soccer/team/squad/_/id/11420/rb-leipzig",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   },
+   {
+    "language": "en-US",
+    "rel": [
+     "squad",
+     "sportscenter",
+     "app",
+     "team"
+    ],
+    "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11420&section=squad",
+    "text": "Squad",
+    "shortText": "Squad",
+    "isExternal": false,
+    "isPremium": false
+   }
+  ],
+  "defaultLeague": {
+   "id": "720",
+   "alternateId": "10",
+   "name": "German Bundesliga",
+   "abbreviation": "Bundesliga",
+   "shortName": "Bundesliga",
+   "midsizeName": "GER.1",
+   "slug": "ger.1",
+   "season": {
+    "type": {
+     "hasStandings": true
+    }
+   },
+   "links": [
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/league/_/name/ger.1",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "index",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:720",
+     "text": "Index",
+     "shortText": "Index",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/schedule/_/league/ger.1",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "schedule",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:720&section=scores",
+     "text": "Schedule",
+     "shortText": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/table/_/league/ger.1",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "standings",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:720&section=standings",
+     "text": "Standings",
+     "shortText": "Standings",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/scoreboard/_/league/ger.1",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "scores",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:720&section=scores",
+     "text": "Scores",
+     "shortText": "Scores",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/stats/_/league/ger.1",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "sportscenter",
+      "app",
+      "league"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~l:720&section=stats",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "teams",
+      "desktop",
+      "league"
+     ],
+     "href": "https://www.espn.com/soccer/teams/_/league/ger.1",
+     "text": "Teams",
+     "shortText": "Teams",
+     "isExternal": false,
+     "isPremium": false
+    }
+   ],
+   "logos": [
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/10.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "default"
+     ],
+     "lastUpdated": "2019-05-08T16:07Z"
+    },
+    {
+     "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/10.png",
+     "width": 500,
+     "height": 500,
+     "alt": "",
+     "rel": [
+      "full",
+      "dark"
+     ],
+     "lastUpdated": "2020-09-17T19:31Z"
+    }
+   ]
+  },
+  "leagueAbbrev": "ger.1",
+  "nextEvent": [
+   {
+    "id": "401915434",
+    "date": "2026-10-13T19:00Z",
+    "name": "PSV Eindhoven at RB Leipzig",
+    "shortName": "PSV @ RBL",
+    "season": {
+     "year": 2026,
+     "displayName": "2026-27 UEFA Champions League"
+    },
+    "seasonType": {
+     "id": "1",
+     "type": 14534,
+     "name": "League Phase",
+     "abbreviation": "League Phase"
+    },
+    "timeValid": true,
+    "competitions": [
+     {
+      "id": "401915434",
+      "date": "2026-10-13T19:00Z",
+      "attendance": 0,
+      "timeValid": true,
+      "neutralSite": false,
+      "boxscoreAvailable": true,
+      "ticketsAvailable": true,
+      "venue": {
+       "fullName": "Red Bull Arena",
+       "address": {
+        "city": "Leipzig",
+        "country": "Germany"
+       }
+      },
+      "competitors": [
+       {
+        "id": "11420",
+        "type": "team",
+        "order": 0,
+        "homeAway": "home",
+        "winner": false,
+        "team": {
+         "id": "11420",
+         "location": "RB Leipzig",
+         "abbreviation": "RBL",
+         "displayName": "RB Leipzig",
+         "shortDisplayName": "RB Leipzig",
+         "logos": [
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "default"
+           ],
+           "lastUpdated": "2024-01-04T17:49Z"
+          },
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/11420.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "dark"
+           ],
+           "lastUpdated": "2024-01-04T17:52Z"
+          }
+         ],
+         "links": [
+          {
+           "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/club/_/id/11420/rb-leipzig",
+           "text": "Clubhouse"
+          },
+          {
+           "rel": [
+            "stats",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/stats/_/id/11420/rb-leipzig",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11420&section=stats",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "schedule",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/fixtures/_/id/11420/rb-leipzig",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11420&section=scores",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "results",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/results/_/id/11420/rb-leipzig",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "results",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11420&section=scores",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "standings",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11420&section=standings",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "squad",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/squad/_/id/11420/rb-leipzig",
+           "text": "Squad"
+          },
+          {
+           "rel": [
+            "squad",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:11420&section=squad",
+           "text": "Squad"
+          }
+         ]
+        }
+       },
+       {
+        "id": "148",
+        "type": "team",
+        "order": 1,
+        "homeAway": "away",
+        "winner": false,
+        "team": {
+         "id": "148",
+         "location": "PSV Eindhoven",
+         "abbreviation": "PSV",
+         "displayName": "PSV Eindhoven",
+         "shortDisplayName": "PSV",
+         "logos": [
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "default"
+           ],
+           "lastUpdated": "2020-11-16T15:55Z"
+          },
+          {
+           "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/148.png",
+           "width": 500,
+           "height": 500,
+           "alt": "",
+           "rel": [
+            "full",
+            "dark"
+           ],
+           "lastUpdated": "2020-11-16T15:56Z"
+          }
+         ],
+         "links": [
+          {
+           "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/club/_/id/148/psv-eindhoven",
+           "text": "Clubhouse"
+          },
+          {
+           "rel": [
+            "stats",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/stats/_/id/148/psv-eindhoven",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:148&section=stats",
+           "text": "Stats"
+          },
+          {
+           "rel": [
+            "schedule",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/fixtures/_/id/148/psv-eindhoven",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:148&section=scores",
+           "text": "Fixtures"
+          },
+          {
+           "rel": [
+            "results",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/results/_/id/148/psv-eindhoven",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "results",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:148&section=scores",
+           "text": "Results"
+          },
+          {
+           "rel": [
+            "standings",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/standings/_/league/uefa.champions",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:148&section=standings",
+           "text": "Standings"
+          },
+          {
+           "rel": [
+            "squad",
+            "desktop",
+            "team"
+           ],
+           "href": "https://www.espn.com/soccer/team/squad/_/id/148/psv-eindhoven",
+           "text": "Squad"
+          },
+          {
+           "rel": [
+            "squad",
+            "sportscenter",
+            "app",
+            "team"
+           ],
+           "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:148&section=squad",
+           "text": "Squad"
+          }
+         ]
+        }
+       }
+      ],
+      "notes": [],
+      "odds": [
+       {
+        "provider": {
+         "id": "100",
+         "name": "DraftKings",
+         "priority": 1
+        },
+        "details": "RBL -110",
+        "overUnder": 3.5,
+        "spread": -0.5,
+        "awayTeamOdds": {
+         "favorite": false,
+         "underdog": true,
+         "moneyLine": 230,
+         "spreadOdds": -120,
+         "open": {
+          "favorite": false,
+          "pointSpread": {
+           "alternateDisplayValue": "+0.5",
+           "american": "+0.5"
+          },
+          "spread": {
+           "value": 1.71,
+           "displayValue": "5/7",
+           "alternateDisplayValue": "-140",
+           "decimal": 1.71,
+           "fraction": "5/7",
+           "american": "-140"
+          },
+          "moneyLine": {
+           "value": 3.05,
+           "displayValue": "41/20",
+           "alternateDisplayValue": "+205",
+           "decimal": 3.05,
+           "fraction": "41/20",
+           "american": "+205"
+          }
+         },
+         "current": {
+          "pointSpread": {
+           "alternateDisplayValue": "+0.5",
+           "american": "+0.5"
+          },
+          "spread": {
+           "value": 1.83,
+           "displayValue": "5/6",
+           "alternateDisplayValue": "-120",
+           "decimal": 1.83,
+           "fraction": "5/6",
+           "american": "-120"
+          },
+          "moneyLine": {
+           "value": 3.3,
+           "displayValue": "23/10",
+           "alternateDisplayValue": "+230",
+           "decimal": 3.3,
+           "fraction": "23/10",
+           "american": "+230"
+          }
+         },
+         "team": {
+          "id": "148",
+          "name": "PSV Eindhoven",
+          "abbreviation": "PSV",
+          "displayName": "PSV Eindhoven",
+          "shortDisplayName": "PSV"
+         }
+        },
+        "homeTeamOdds": {
+         "favorite": true,
+         "underdog": false,
+         "moneyLine": -110,
+         "spreadOdds": -120,
+         "open": {
+          "favorite": true,
+          "pointSpread": {
+           "alternateDisplayValue": "-0.5",
+           "american": "-0.5"
+          },
+          "spread": {
+           "value": 1.9,
+           "displayValue": "10/11",
+           "alternateDisplayValue": "-110",
+           "decimal": 1.9,
+           "fraction": "10/11",
+           "american": "-110"
+          },
+          "moneyLine": {
+           "value": 2.05,
+           "displayValue": "21/20",
+           "alternateDisplayValue": "+105",
+           "decimal": 2.05,
+           "fraction": "21/20",
+           "american": "+105"
+          }
+         },
+         "current": {
+          "pointSpread": {
+           "alternateDisplayValue": "-0.5",
+           "american": "-0.5"
+          },
+          "spread": {
+           "value": 1.83,
+           "displayValue": "5/6",
+           "alternateDisplayValue": "-120",
+           "decimal": 1.83,
+           "fraction": "5/6",
+           "american": "-120"
+          },
+          "moneyLine": {
+           "value": 1.9,
+           "displayValue": "10/11",
+           "alternateDisplayValue": "-110",
+           "decimal": 1.9,
+           "fraction": "10/11",
+           "american": "-110"
+          }
+         },
+         "team": {
+          "id": "11420",
+          "name": "RB Leipzig",
+          "abbreviation": "RBL",
+          "displayName": "RB Leipzig",
+          "shortDisplayName": "RB Leipzig"
+         }
+        },
+        "drawOdds": {
+         "moneyLine": 320
+        },
+        "links": [
+         {
+          "language": "en-US",
+          "rel": [
+           "home",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654792%3Foutcomes%3D0ML86264680_1",
+          "text": "Home Bet",
+          "shortText": "Home Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "away",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654792%3Foutcomes%3D0ML86264680_3",
+          "text": "Away Bet",
+          "shortText": "Away Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "draw",
+           "desktop",
+           "bets",
+           "draftkings"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654792%3Foutcomes%3D0ML86264680_2",
+          "text": "Draw Bet",
+          "shortText": "Draw Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "homeSpread",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654792%3Foutcomes%3D0HC86264876N50_1",
+          "text": "Home Point Spread",
+          "shortText": "Home Point Spread",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "awaySpread",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654792%3Foutcomes%3D0HC86264876P50_3",
+          "text": "Away Point Spread",
+          "shortText": "Away Point Spread",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "over",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654792%3Foutcomes%3D0OU86264852O350_1",
+          "text": "Over Odds",
+          "shortText": "Over Odds",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "under",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654792%3Foutcomes%3D0OU86264852U350_3",
+          "text": "Under Odds",
+          "shortText": "Under Odds",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "game",
+           "desktop",
+           "bets"
+          ],
+          "href": "https://sportsbook.draftkings.com/gateway?s=__s__&wpcid=__wpcid__&wpsrc=413&wpcn=ESPN&wpscn=Widget&wpcrn=BetSlipDeepLink&wpscid=__wpscid__&wpcrid=xx&preurl=https%3A%2F%2Fsportsbook.draftkings.com%2Fevent%2F34654792",
+          "text": "Game",
+          "shortText": "Game",
+          "isExternal": true,
+          "isPremium": false
+         }
+        ]
+       },
+       {
+        "provider": {
+         "id": "2000",
+         "name": "Bet 365",
+         "priority": 0
+        },
+        "awayTeamOdds": {
+         "team": {
+          "id": "148",
+          "name": "PSV Eindhoven",
+          "abbreviation": "PSV",
+          "displayName": "PSV Eindhoven",
+          "shortDisplayName": "PSV"
+         },
+         "odds": {
+          "summary": "23/10",
+          "value": 3.3,
+          "handicap": 0
+         }
+        },
+        "homeTeamOdds": {
+         "team": {
+          "id": "11420",
+          "name": "RB Leipzig",
+          "abbreviation": "RBL",
+          "displayName": "RB Leipzig",
+          "shortDisplayName": "RB Leipzig"
+         },
+         "odds": {
+          "summary": "9/10",
+          "value": 1.9,
+          "handicap": 0
+         }
+        },
+        "drawOdds": {
+         "summary": "31/10",
+         "value": 4.1,
+         "handicap": 0
+        },
+        "links": [
+         {
+          "language": "en-US",
+          "rel": [
+           "home",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057511-2115100337~9/10",
+          "text": "Home Bet",
+          "shortText": "Home Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "away",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057511-2115100339~23/10",
+          "text": "Away Bet",
+          "shortText": "Away Bet",
+          "isExternal": true,
+          "isPremium": false
+         },
+         {
+          "language": "en-US",
+          "rel": [
+           "draw",
+           "desktop",
+           "bets",
+           "bet-365"
+          ],
+          "href": "https://www.bet365.com/dl/sportsbookredirect?affiliate=365_307577&bet=1&bs=201057511-2115100338~31/10",
+          "text": "Draw Bet",
+          "shortText": "Draw Bet",
+          "isExternal": true,
+          "isPremium": false
+         }
+        ]
+       }
+      ],
+      "broadcasts": [
+       {
+        "type": {
+         "id": "4",
+         "shortName": "STREAMING"
+        },
+        "media": {
+         "shortName": "Paramount+"
+        },
+        "lang": "en",
+        "region": "us"
+       }
+      ],
+      "tickets": [
+       {
+        "id": "7560983",
+        "summary": "Tickets as low as $30",
+        "description": "RB Leipzig vs PSV Eindhoven",
+        "maxPrice": 293,
+        "startingPrice": 30,
+        "numberAvailable": 35,
+        "totalPostings": 9,
+        "links": [
+         {
+          "rel": [
+           "tickets",
+           "desktop",
+           "event"
+          ],
+          "href": "https://www.vividseats.com/rb-leipzig-tickets-red-bull-arena---leipzig-10-13-2026--sports-soccer/production/7560983?wsUser=717"
+         },
+         {
+          "rel": [
+           "tickets",
+           "desktop",
+           "venue"
+          ],
+          "href": "https://www.vividseats.com/venues/red-bull-arena-_-leipzig-tickets.html?wsUser=717"
+         }
+        ]
+       }
+      ],
+      "status": {
+       "clock": 0,
+       "addedClock": 0,
+       "displayClock": "0'",
+       "period": 0,
+       "type": {
+        "id": "1",
+        "name": "STATUS_SCHEDULED",
+        "state": "pre",
+        "completed": false,
+        "description": "Scheduled",
+        "detail": "Tue, October 13th at 3:00 PM EDT",
+        "shortDetail": "10/13 - 3:00 PM EDT"
+       }
+      }
+     }
+    ],
+    "links": [
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/match/_/gameId/401915434/psv-eindhoven-rb-leipzig",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "mobile",
+       "event"
+      ],
+      "href": "https://m.espn.com/soccer/match?gameId=401915434&action=summary",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "summary",
+       "sportscenter",
+       "app",
+       "event"
+      ],
+      "href": "sportscenter://x-callback-url/showGame?sportName=soccer&leagueAbbrev=uefa.champions&gameId=401915434",
+      "text": "Summary",
+      "shortText": "Summary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "videos",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/video/_/gameId/401915434",
+      "text": "Videos",
+      "shortText": "Videos",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "standings",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/table/_/league/uefa.champions",
+      "text": "Table",
+      "shortText": "Table",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "odds",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/odds/_/gameId/401915434",
+      "text": "Odds",
+      "shortText": "Odds",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "odds",
+       "mobile",
+       "event"
+      ],
+      "href": "https://m.espn.com/soccer/odds/_/gameId/401915434",
+      "text": "Odds",
+      "shortText": "Odds",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "livestandings",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/table/_/gameId/401915434",
+      "text": "Live Table",
+      "shortText": "Live Table",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/matchstats/_/gameId/401915434",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "commentary",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/commentary/_/gameId/401915434",
+      "text": "Commentary",
+      "shortText": "Commentary",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "bet365",
+       "desktop",
+       "event"
+      ],
+      "href": "http://www.bet365.com/home/?affiliate=365_351846",
+      "text": "Bet 365",
+      "shortText": "Bet 365",
+      "isExternal": true,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "player-stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/player-stats/_/gameId/401915434/league/uefa.champions",
+      "text": "Player Stats",
+      "shortText": "Player Stats",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "team-stats",
+       "desktop",
+       "event"
+      ],
+      "href": "https://www.espn.com/soccer/team-stats/_/gameId/401915434/league/uefa.champions",
+      "text": "Team Stats",
+      "shortText": "Team Stats",
+      "isExternal": false,
+      "isPremium": false
+     }
+    ],
+    "league": {
+     "id": "775",
+     "alternateId": "2",
+     "name": "UEFA Champions League",
+     "abbreviation": "UEFA Champions League",
+     "shortName": "UEFA Champions League",
+     "midsizeName": "UEFA.CHAMPIONS",
+     "slug": "uefa.champions",
+     "isTournament": true
+    }
+   }
+  ],
+  "standingSummary": "32nd in German Bundesliga"
+ }
+}
